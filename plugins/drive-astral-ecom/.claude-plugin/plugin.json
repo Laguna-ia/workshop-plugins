@@ -1,7 +1,7 @@
 {
   "name": "drive-astral-ecom",
-  "version": "1.7.0",
-  "description": "Drive Astral Ecom: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas.",
+  "version": "1.7.1",
+  "description": "Drive Astral Ecom: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
   "author": {
     "name": "Laguna AI",
     "url": "https://lagunaai.org"

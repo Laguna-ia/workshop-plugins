@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "trama-erp",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Trama ERP: vendas, contabilidade, contas a pagar, fiscal e cadastros da Trama, com bloqueio de títulos a pagar.",
   "author": {
     "name": "Laguna AI",

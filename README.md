@@ -10,24 +10,24 @@ Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&g
 | --- | --- | --- | --- |
 | `vertice-crm` | Vértice CRM | CRM da Vértice: contas, contatos, oportunidades, atividades, reuniões, documentos e tarefas. Escritas afetam só a sua carteira e pedem sua aprovação. | `https://lagunaai.org/api/mcp/crm` |
 | `vertice-pulso` | Vértice Pulso | Dados de uso do produto (contas, usuários, convites, eventos, integrações, logs e limites contratados) em SQL somente leitura. | `https://lagunaai.org/api/mcp/produto` |
-| `vertice-drive` | Drive Vértice | Drive da Vértice: arquivos da empresa e a sua pasta Meus arquivos, onde o assistente salva documentos (DOCX no modelo Vértice), planilhas e textos. | `https://lagunaai.org/api/mcp/drive` |
+| `vertice-drive` | Drive Vértice | Drive da Vértice: arquivos da empresa e a sua pasta Meus arquivos, onde o assistente salva documentos (DOCX no modelo Vértice), planilhas e textos, só quando você pedir. | `https://lagunaai.org/api/mcp/drive` |
 | `vertice-mail` | Email Vértice | Caixa de e-mail do Diretor Comercial da Vértice, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/mail` |
 
 ### Casa em Dia (workshop de marketing)
 
 | Plugin | Nome exibido | O que faz | Servidor MCP |
 | --- | --- | --- | --- |
-| `drive-casa-em-dia` | Drive Casa em Dia | Drive da Casa em Dia (manutenção residencial com planos de assinatura): a pasta `Casa em Dia/` é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos. | `https://lagunaai.org/api/mcp/casa-em-dia/drive` |
+| `drive-casa-em-dia` | Drive Casa em Dia | Drive da Casa em Dia (manutenção residencial com planos de assinatura): a pasta `Casa em Dia/` é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/casa-em-dia/drive` |
 | `email-casa-em-dia` | Email Casa em Dia | Caixa de e-mail de Lívia Andrade, Head de Marketing da Casa em Dia, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/casa-em-dia/mail` |
 
 ### Astral Ecom (workshop de finanças)
 
 | Plugin | Nome exibido | O que faz | Servidor MCP |
 | --- | --- | --- | --- |
-| `drive-astral-ecom` | Drive Astral Ecom | Drive da Astral Ecom (plataforma de e-commerce para PMEs): a pasta `Astral Ecom/` da Controladoria é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos. | `https://lagunaai.org/api/mcp/astral-ecom/drive` |
+| `drive-astral-ecom` | Drive Astral Ecom | Drive da Astral Ecom (plataforma de e-commerce para PMEs): a pasta `Astral Ecom/` da Controladoria é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/astral-ecom/drive` |
 | `email-astral-ecom` | Email Astral Ecom | Caixa de e-mail de Bianca Okuma, Controller da Astral Ecom, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/astral-ecom/mail` |
 | `trama-erp` | Trama ERP | ERP da Trama (workshop de Finanças): vendas, razão, balancete, DRE × orçamento, contas a pagar, notas de entrada e saída com IBS/CBS, produtos e fornecedores. A única escrita é bloquear títulos a pagar, só na sua carteira e com a sua aprovação. | `https://lagunaai.org/api/mcp/trama/erp` |
-| `drive-trama` | Drive Trama | Drive da Trama: a pasta `Trama/` (planejamento, políticas, contratos, extratos, vendas, fiscal, modelos) é somente leitura para participantes; o assistente salva documentos, planilhas e textos em Meus arquivos. | `https://lagunaai.org/api/mcp/trama/drive` |
+| `drive-trama` | Drive Trama | Drive da Trama: a pasta `Trama/` (planejamento, políticas, contratos, extratos, vendas, fiscal, modelos) é somente leitura para participantes; o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/trama/drive` |
 | `email-trama` | Email Trama | Caixa de e-mail de Paulo Andrade, Diretor Financeiro da Trama, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/trama/mail` |
 
 > **Credenciais:** os plugins não guardam token, senha nem chave. O acesso é feito por OAuth: na primeira vez que o plugin é usado, você entra com a sua conta Laguna e o ChatGPT/Claude guarda a autorização do seu lado. Nada de credencial deve ser commitado neste repositório (ele é público).

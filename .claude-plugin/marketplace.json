@@ -10,67 +10,67 @@
       "name": "vertice-crm",
       "source": "./plugins/vertice-crm",
       "description": "CRM da Vértice: contas, oportunidades, atividades, reuniões e tarefas.",
-      "version": "1.7.0"
+      "version": "1.7.1"
     },
     {
       "name": "vertice-pulso",
       "source": "./plugins/vertice-pulso",
       "description": "Vértice Pulso: dados de uso do produto da Vértice (contas, usuários, convites, eventos, integrações, logs e limites contratados), em SQL somente leitura.",
-      "version": "1.7.0"
+      "version": "1.7.1"
     },
     {
       "name": "vertice-drive",
       "source": "./plugins/vertice-drive",
-      "description": "Drive Vértice: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas.",
-      "version": "1.7.0"
+      "description": "Drive Vértice: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+      "version": "1.7.1"
     },
     {
       "name": "vertice-mail",
       "source": "./plugins/vertice-mail",
       "description": "Email Vértice: caixa de e-mail da Vértice com leitura, contatos, respostas e envio de mensagens.",
-      "version": "1.7.0"
+      "version": "1.7.1"
     },
     {
       "name": "drive-casa-em-dia",
       "source": "./plugins/drive-casa-em-dia",
-      "description": "Drive Casa em Dia: arquivos da empresa (somente leitura) e a sua pasta, onde o assistente salva documentos e planilhas.",
-      "version": "1.7.0"
+      "description": "Drive Casa em Dia: arquivos da empresa (somente leitura) e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+      "version": "1.7.1"
     },
     {
       "name": "email-casa-em-dia",
       "source": "./plugins/email-casa-em-dia",
       "description": "Email Casa em Dia: caixa de e-mail da Casa em Dia com leitura, contatos, respostas e envio de mensagens.",
-      "version": "1.7.0"
+      "version": "1.7.1"
     },
     {
       "name": "drive-astral-ecom",
       "source": "./plugins/drive-astral-ecom",
-      "description": "Drive Astral Ecom: arquivos da empresa (somente leitura) e a sua pasta, onde o assistente salva documentos e planilhas.",
-      "version": "1.7.0"
+      "description": "Drive Astral Ecom: arquivos da empresa (somente leitura) e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+      "version": "1.7.1"
     },
     {
       "name": "email-astral-ecom",
       "source": "./plugins/email-astral-ecom",
       "description": "Email Astral Ecom: caixa de e-mail da Astral Ecom com leitura, contatos, respostas e envio de mensagens.",
-      "version": "1.7.0"
+      "version": "1.7.1"
     },
     {
       "name": "trama-erp",
       "source": "./plugins/trama-erp",
       "description": "Trama ERP: vendas, contabilidade, contas a pagar, fiscal e cadastros da Trama, com bloqueio de títulos a pagar.",
-      "version": "1.7.0"
+      "version": "1.7.1"
     },
     {
       "name": "drive-trama",
       "source": "./plugins/drive-trama",
-      "description": "Drive Trama: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas.",
-      "version": "1.7.0"
+      "description": "Drive Trama: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+      "version": "1.7.1"
     },
     {
       "name": "email-trama",
       "source": "./plugins/email-trama",
       "description": "Email Trama: caixa de e-mail da Trama com leitura, contatos, respostas e envio de mensagens.",
-      "version": "1.7.0"
+      "version": "1.7.1"
     }
   ]
 }
