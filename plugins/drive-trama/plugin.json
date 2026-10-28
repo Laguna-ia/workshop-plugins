@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "drive-trama",
-  "version": "1.7.0",
-  "description": "Drive Trama: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas.",
+  "version": "1.7.1",
+  "description": "Drive Trama: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
   "author": {
     "name": "Laguna AI",
     "url": "https://lagunaai.org"
@@ -19,7 +19,7 @@
       "interface": {
         "displayName": "Drive Trama",
         "shortDescription": "Arquivos da empresa Trama",
-        "longDescription": "Conecta o ChatGPT ao drive da Trama, varejo de moda e casa: planejamento e orçamento, políticas, contratos (Cardex, shoppings, fornecedores), extratos bancários, planilhas de vendas por loja e canal, pacote fiscal da reforma e modelos, com planilhas e documentos já extraídos para leitura. A pasta da empresa é somente leitura; o assistente salva documentos (DOCX), planilhas e textos na sua pasta Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/trama/drive. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT ao drive da Trama, varejo de moda e casa: planejamento e orçamento, políticas, contratos (Cardex, shoppings, fornecedores), extratos bancários, planilhas de vendas por loja e canal, pacote fiscal da reforma e modelos, com planilhas e documentos já extraídos para leitura. A pasta da empresa é somente leitura; quando você pedir, o assistente salva documentos (DOCX), planilhas e textos na sua pasta Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/trama/drive. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
