@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "email-trama",
+  "version": "1.7.0",
+  "description": "Email Trama: a caixa de e-mail da Diretor Financeiro da Trama, com leitura, contatos, respostas e envio de mensagens.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/trama/email",
+  "keywords": [
+    "email",
+    "e-mail",
+    "mcp",
+    "trama"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Email Trama",
+        "shortDescription": "Caixa de e-mail da Trama",
+        "longDescription": "Conecta o ChatGPT à caixa de e-mail de Paulo Andrade, Diretor Financeiro da Trama (varejo de moda e casa, nas lojas e online): lista e lê mensagens, consulta contatos, envia e responde e-mails internos e marca mensagens como lidas. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/trama/email",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Quais e-mails não lidos eu tenho? Resuma o que cada um pede de mim.",
+          "Leia o e-mail mais recente do time de Finanças e rascunhe uma resposta pedindo a abertura dos números."
+        ],
+        "brandColor": "#142B35",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

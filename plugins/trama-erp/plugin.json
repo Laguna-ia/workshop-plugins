@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "trama-erp",
+  "version": "1.7.0",
+  "description": "Trama ERP: vendas, contabilidade, contas a pagar, fiscal e cadastros da Trama, com bloqueio de títulos a pagar.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/trama/erp",
+  "keywords": [
+    "erp",
+    "financas",
+    "mcp",
+    "trama"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Trama ERP",
+        "shortDescription": "Os números da operação da Trama",
+        "longDescription": "Conecta o ChatGPT ao ERP da Trama, varejo de moda e casa: vendas por dia, loja, canal e meio de pagamento; razão, balancete e DRE gerencial contra o orçamento; contas a pagar com pedidos, notas e recebimentos; notas de saída com o grupo IBS/CBS; cadastros de produtos e fornecedores. A única escrita é bloquear títulos a pagar, só na sua carteira e com a sua aprovação. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/trama/erp",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Como fechou o balancete de outubro? Diga o status do fechamento e se débitos e créditos batem.",
+          "Compare o resultado de outubro com o orçamento por linha da DRE e explique as maiores diferenças, citando as tabelas."
+        ],
+        "brandColor": "#142B35",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

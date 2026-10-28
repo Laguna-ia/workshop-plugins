@@ -26,6 +26,9 @@ Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&g
 | --- | --- | --- | --- |
 | `drive-astral-ecom` | Drive Astral Ecom | Drive da Astral Ecom (plataforma de e-commerce para PMEs): a pasta `Astral Ecom/` da Controladoria é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos. | `https://lagunaai.org/api/mcp/astral-ecom/drive` |
 | `email-astral-ecom` | Email Astral Ecom | Caixa de e-mail de Bianca Okuma, Controller da Astral Ecom, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/astral-ecom/mail` |
+| `trama-erp` | Trama ERP | ERP da Trama (workshop de Finanças): vendas, razão, balancete, DRE × orçamento, contas a pagar, notas de entrada e saída com IBS/CBS, produtos e fornecedores. A única escrita é bloquear títulos a pagar, só na sua carteira e com a sua aprovação. | `https://lagunaai.org/api/mcp/trama/erp` |
+| `drive-trama` | Drive Trama | Drive da Trama: a pasta `Trama/` (planejamento, políticas, contratos, extratos, vendas, fiscal, modelos) é somente leitura para participantes; o assistente salva documentos, planilhas e textos em Meus arquivos. | `https://lagunaai.org/api/mcp/trama/drive` |
+| `email-trama` | Email Trama | Caixa de e-mail de Paulo Andrade, Diretor Financeiro da Trama, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/trama/mail` |
 
 > **Credenciais:** os plugins não guardam token, senha nem chave. O acesso é feito por OAuth: na primeira vez que o plugin é usado, você entra com a sua conta Laguna e o ChatGPT/Claude guarda a autorização do seu lado. Nada de credencial deve ser commitado neste repositório (ele é público).
 
@@ -59,13 +62,16 @@ No Codex CLI: `codex plugin marketplace add Laguna-ia/workshop-plugins`.
 # Astral Ecom
 /plugin install drive-astral-ecom@laguna
 /plugin install email-astral-ecom@laguna
+/plugin install trama-erp@laguna
+/plugin install drive-trama@laguna
+/plugin install email-trama@laguna
 ```
 
 Pelo terminal: `claude plugin marketplace add Laguna-ia/workshop-plugins` e `claude plugin install vertice-crm@laguna`. Para receber versões novas: `/plugin marketplace update laguna`. No primeiro uso, autorize o servidor MCP (login Laguna) em `/mcp`.
 
 ## Instalar por zip
 
-Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [lagunaai.org/plataforma/empresa/plugins](https://lagunaai.org/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
+Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`, `trama-erp.zip`, `drive-trama.zip`, `email-trama.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [lagunaai.org/plataforma/empresa/plugins](https://lagunaai.org/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
 
 ## Estrutura
 

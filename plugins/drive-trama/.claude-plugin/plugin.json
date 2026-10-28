@@ -1,0 +1,22 @@
+{
+  "name": "drive-trama",
+  "version": "1.7.0",
+  "description": "Drive Trama: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/trama/drive",
+  "keywords": [
+    "drive",
+    "arquivos",
+    "mcp",
+    "trama"
+  ],
+  "mcpServers": {
+    "drive-trama": {
+      "type": "http",
+      "url": "https://lagunaai.org/api/mcp/trama/drive"
+    }
+  }
+}
