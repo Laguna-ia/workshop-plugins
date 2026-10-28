@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "drive-trama",
+  "version": "1.7.0",
+  "description": "Drive Trama: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/trama/drive",
+  "keywords": [
+    "drive",
+    "arquivos",
+    "mcp",
+    "trama"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Drive Trama",
+        "shortDescription": "Arquivos da empresa Trama",
+        "longDescription": "Conecta o ChatGPT ao drive da Trama, varejo de moda e casa: planejamento e orçamento, políticas, contratos (Cardex, shoppings, fornecedores), extratos bancários, planilhas de vendas por loja e canal, pacote fiscal da reforma e modelos, com planilhas e documentos já extraídos para leitura. A pasta da empresa é somente leitura; o assistente salva documentos (DOCX), planilhas e textos na sua pasta Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/trama/drive. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/trama/drive",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Quais contratos e extratos temos no Drive da Trama? Resuma o aditivo da Cardex.",
+          "Escreva um memorando de uma página sobre a conciliação dos cartões de outubro e salve no Drive como documento."
+        ],
+        "brandColor": "#5B3FD1",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

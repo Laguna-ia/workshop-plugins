@@ -1,0 +1,22 @@
+{
+  "name": "trama-erp",
+  "version": "1.7.0",
+  "description": "Trama ERP: vendas, contabilidade, contas a pagar, fiscal e cadastros da Trama, com bloqueio de títulos a pagar.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/trama/erp",
+  "keywords": [
+    "erp",
+    "financas",
+    "mcp",
+    "trama"
+  ],
+  "mcpServers": {
+    "trama-erp": {
+      "type": "http",
+      "url": "https://lagunaai.org/api/mcp/trama/erp"
+    }
+  }
+}
