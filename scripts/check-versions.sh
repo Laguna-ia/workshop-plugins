@@ -2,6 +2,10 @@
 # Falha se a versão de algum plugin divergir entre plugin.json (Agent Plugins /
 # ChatGPT), .claude-plugin/plugin.json (Claude) e .claude-plugin/marketplace.json.
 # Se TAG (ex.: v1.2.0) estiver definida, exige também que todas batam com ela.
+#
+# Exceção: plugins com versão própria (INDEPENDENT, hoje só alameda-dados) precisam ter os TRÊS manifests iguais entre si,
+# mas não entram na regra de versão única nem na checagem da TAG. O alameda-dados é publicado em 1.0, 1.1 e 1.2 (as versões
+# do workshop; ver scripts/build-alameda-dados.sh): a versão que fica em plugins/ é a do marketplace (1.0.0).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
@@ -11,6 +15,7 @@ tag = sys.argv[1].lstrip("v") if len(sys.argv) > 1 and sys.argv[1] else None
 load = lambda p: json.load(open(p, encoding="utf-8"))
 claude_mkt = {p["name"]: p for p in load(".claude-plugin/marketplace.json")["plugins"]}
 agents_mkt = {p["name"]: p for p in load(".agents/plugins/marketplace.json")["plugins"]}
+INDEPENDENT = {"alameda-dados"}
 errors, versions = [], set()
 names = sorted(d for d in os.listdir("plugins") if os.path.isdir(os.path.join("plugins", d)))
 if set(names) != set(claude_mkt) or set(names) != set(agents_mkt):
@@ -28,6 +33,9 @@ for n in names:
             errors.append(f"{n}: name em {label} = {nm!r}")
     if len(set(found.values())) != 1:
         errors.append(f"{n}: versões divergentes {found}")
+    if n in INDEPENDENT:
+        print(f"{n}: {found['plugin.json']} (versão própria)")
+        continue
     versions.update(found.values())
     print(f"{n}: {found['plugin.json']}")
 if tag and versions != {tag}:

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alameda-dados",
+  "version": "1.0.0",
+  "description": "Data Warehouse e skills do time de dados da Alameda",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/plugins",
+  "keywords": [
+    "dados",
+    "data warehouse",
+    "sql",
+    "mcp",
+    "alameda"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Alameda Dados",
+        "shortDescription": "Data Warehouse e skills do time de dados da Alameda",
+        "longDescription": "Conecta o ChatGPT ao Data Warehouse da Alameda (rede de moda e casa): tabelas de lojas, produtos, vendas, estoque, metas, e-commerce e remarcações, com os comentários de coluna que explicam as regras de negócio, SQL somente leitura e o catálogo de queries salvas do time de dados (o SQL completo e quantas vezes cada uma foi executada). As skills do time de dados guardam as definições oficiais dos indicadores. Este plugin não escreve nada na base. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/plugins",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Quais são as queries mais executadas do time e o que cada uma calcula?"
+        ],
+        "brandColor": "#1F3A33",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

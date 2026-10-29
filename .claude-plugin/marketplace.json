@@ -1,6 +1,6 @@
 {
   "name": "laguna",
-  "description": "Plugins dos workshops da Laguna AI: Vértice (CRM, Pulso, Drive Vértice e Email Vértice), Casa em Dia (Drive Casa em Dia e Email Casa em Dia) e Astral Ecom (Drive Astral Ecom e Email Astral Ecom)",
+  "description": "Plugins dos workshops da Laguna AI: Vértice (CRM, Pulso, Drive Vértice e Email Vértice), Casa em Dia (Drive Casa em Dia e Email Casa em Dia), Astral Ecom (Drive Astral Ecom e Email Astral Ecom) e Alameda (Alameda Dados, Drive Alameda e Email Alameda)",
   "owner": {
     "name": "Laguna",
     "url": "https://lagunaai.org"
@@ -70,6 +70,24 @@
       "name": "email-trama",
       "source": "./plugins/email-trama",
       "description": "Email Trama: caixa de e-mail da Trama com leitura, contatos, respostas e envio de mensagens.",
+      "version": "1.7.1"
+    },
+    {
+      "name": "alameda-dados",
+      "source": "./plugins/alameda-dados",
+      "description": "Data Warehouse e skills do time de dados da Alameda.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "drive-alameda",
+      "source": "./plugins/drive-alameda",
+      "description": "Drive Alameda: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+      "version": "1.7.1"
+    },
+    {
+      "name": "email-alameda",
+      "source": "./plugins/email-alameda",
+      "description": "Email Alameda: caixa de e-mail da Alameda com leitura, contatos, respostas e envio de mensagens.",
       "version": "1.7.1"
     }
   ]

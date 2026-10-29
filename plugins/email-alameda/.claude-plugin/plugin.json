@@ -1,0 +1,22 @@
+{
+  "name": "email-alameda",
+  "version": "1.7.1",
+  "description": "Email Alameda: caixa de e-mail da Alameda com leitura, contatos, respostas e envio de mensagens.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/alameda/email",
+  "keywords": [
+    "email",
+    "e-mail",
+    "mcp",
+    "alameda"
+  ],
+  "mcpServers": {
+    "email-alameda": {
+      "type": "http",
+      "url": "https://lagunaai.org/api/mcp/alameda/mail"
+    }
+  }
+}

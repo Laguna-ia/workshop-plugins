@@ -1,0 +1,23 @@
+{
+  "name": "alameda-dados",
+  "version": "1.0.0",
+  "description": "Data Warehouse e skills do time de dados da Alameda",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/plugins",
+  "keywords": [
+    "dados",
+    "data warehouse",
+    "sql",
+    "mcp",
+    "alameda"
+  ],
+  "mcpServers": {
+    "alameda-dw": {
+      "type": "http",
+      "url": "https://lagunaai.org/api/mcp/dw"
+    }
+  }
+}

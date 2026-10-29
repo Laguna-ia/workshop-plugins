@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "drive-alameda",
+  "version": "1.7.1",
+  "description": "Drive Alameda: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/alameda/drive",
+  "keywords": [
+    "drive",
+    "arquivos",
+    "mcp",
+    "alameda"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Drive Alameda",
+        "shortDescription": "Arquivos da empresa Alameda",
+        "longDescription": "Conecta o ChatGPT ao drive da Alameda, rede de moda e casa: metas, ranking de lojas, pacote semanal das regionais, modelos de documento e apresentação e o guia da marca, com planilhas e documentos já extraídos para leitura. A pasta da empresa é somente leitura, exceto a pasta Dados; quando você pedir, o assistente salva documentos (DOCX), planilhas e textos na sua pasta Meus arquivos e em Alameda/Dados, que você vê em lagunaai.org/plataforma/empresa/alameda/drive. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/alameda/drive",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Quais arquivos temos no Drive da Alameda? Resuma as metas do Q4.",
+          "Crie o arquivo Dados/contexto-lojas.md com o que sabemos das lojas e salve no Drive."
+        ],
+        "brandColor": "#1F3A33",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
