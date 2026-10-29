@@ -30,6 +30,14 @@ Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&g
 | `drive-trama` | Drive Trama | Drive da Trama: a pasta `Trama/` (planejamento, políticas, contratos, extratos, vendas, fiscal, modelos) é somente leitura para participantes; o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/trama/drive` |
 | `email-trama` | Email Trama | Caixa de e-mail de Paulo Andrade, Diretor Financeiro da Trama, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/trama/mail` |
 
+### Alameda (workshop de dados)
+
+| Plugin | Nome exibido | O que faz | Servidor MCP |
+| --- | --- | --- | --- |
+| `alameda-dados` | Alameda Dados | Data Warehouse da Alameda em SQL somente leitura (tabelas `al_*`, comentários de coluna, catálogo de queries salvas com o SQL completo e o uso de cada uma) e as skills do time de dados. Versões próprias 1.0, 1.1 e 1.2 (ver abaixo). | `https://lagunaai.org/api/mcp/dw` |
+| `drive-alameda` | Drive Alameda | Drive da Alameda: a pasta `Alameda/` é somente leitura para participantes, exceto `Alameda/Dados/`, gravável; o assistente salva documentos, planilhas e textos só quando você pedir. | `https://lagunaai.org/api/mcp/alameda/drive` |
+| `email-alameda` | Email Alameda | Caixa de e-mail de Juliana Prado, Head de Dados da Alameda, com leitura, contatos, respostas e envio de mensagens (inclusive para si mesma). Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/alameda/mail` |
+
 > **Credenciais:** os plugins não guardam token, senha nem chave. O acesso é feito por OAuth: na primeira vez que o plugin é usado, você entra com a sua conta Laguna e o ChatGPT/Claude guarda a autorização do seu lado. Nada de credencial deve ser commitado neste repositório (ele é público).
 
 ## Instalar no ChatGPT (admin de workspace Business/Enterprise)
@@ -65,13 +73,18 @@ No Codex CLI: `codex plugin marketplace add Laguna-ia/workshop-plugins`.
 /plugin install trama-erp@laguna
 /plugin install drive-trama@laguna
 /plugin install email-trama@laguna
+
+# Alameda
+/plugin install alameda-dados@laguna
+/plugin install drive-alameda@laguna
+/plugin install email-alameda@laguna
 ```
 
 Pelo terminal: `claude plugin marketplace add Laguna-ia/workshop-plugins` e `claude plugin install vertice-crm@laguna`. Para receber versões novas: `/plugin marketplace update laguna`. No primeiro uso, autorize o servidor MCP (login Laguna) em `/mcp`.
 
 ## Instalar por zip
 
-Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`, `trama-erp.zip`, `drive-trama.zip`, `email-trama.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [lagunaai.org/plataforma/empresa/plugins](https://lagunaai.org/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
+Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`, `trama-erp.zip`, `drive-trama.zip`, `email-trama.zip`, `alameda-dados-1.0.zip` (e `-1.1`, `-1.2`), `drive-alameda.zip`, `email-alameda.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [lagunaai.org/plataforma/empresa/plugins](https://lagunaai.org/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
 
 ## Estrutura
 
@@ -85,7 +98,8 @@ plugins/<nome>/assets/               ícone e logo
 plugins/<nome>/.claude-plugin/plugin.json   manifest do Claude (MCP inline, type "http")
 experiments/                         snapshots fora dos índices de marketplace
 scripts/build-zips.sh                gera dist/<nome>.zip (mesmo layout dos zips do site)
-scripts/check-versions.sh            confere se as versões dos manifests batem
+scripts/check-versions.sh            confere se as versões dos manifests batem (alameda-dados tem versão própria)
+scripts/build-alameda-dados.sh       monta alameda-dados-1.0/1.1/1.2.zip a partir de pacote/skills/
 ```
 
 O nome técnico de cada plugin é o mesmo na pasta, nos manifests e nos dois marketplaces. Os plugins da Vértice mantêm os identificadores `vertice-drive` e `vertice-mail` para atualizar instalações existentes; os nomes exibidos passam a ser **Drive Vértice** e **Email Vértice**. Plugins de empresas novas usam `drive-<empresa>` e `email-<empresa>`. O pacote privado de teste continua guardado em `experiments/`, fora dos índices ativos.
@@ -104,3 +118,12 @@ O nome técnico de cada plugin é o mesmo na pasta, nos manifests e nos dois mar
    ```
 
 6. Este repositório não tem um workflow de GitHub Actions para a release. Depois de gerar `dist/`, publique manualmente o GitHub Release com os arquivos ZIP; se o app também servir os ZIPs em `lagunaai.org`, atualize-os lá.
+
+## Versões do alameda-dados (1.0, 1.1, 1.2)
+
+Todos os plugins andam juntos na mesma versão (`check-versions.sh`), **exceto o `alameda-dados`**, que tem versão própria: o workshop de dados precisa dele em 1.0 (6 skills, estado inicial), 1.1 (+ `produtividade-por-m2`, plano B do Módulo 1) e 1.2 (+ `relatorio-semanal-regional`, plano B do Módulo 2).
+
+- O marketplace (ChatGPT e Claude) serve **uma versão por plugin**, a que está em `plugins/alameda-dados/` em `main`: 1.0.0. Quem instala por marketplace parte sempre do estado inicial.
+- As três versões existem como zips: `scripts/build-alameda-dados.sh [PACOTE]` lê `PACOTE/skills/` (texto das skills do Leo, copiado sem edição; ver o cabeçalho do script para os dois layouts aceitos), grava a versão certa nos dois manifests e gera `dist/alameda-dados-1.0.zip`, `-1.1.zip` e `-1.2.zip`, reproduzíveis (datas fixas, ordem fixa). Anexe os três à Release e ao `public/empresa/plugin/` do app.
+- Para passar o marketplace de 1.0 para 1.1 ou 1.2 de verdade (publicar as skills), copie as skills para `plugins/alameda-dados/skills/`, suba a versão nos **três** manifests do `alameda-dados` (o `check-versions.sh` exige que os três batam entre si) e faça commit. Os outros plugins não mudam.
+- `skills/` fica vazia (`.gitkeep`) até o pacote chegar: a 1.0 do marketplace é o plugin só com o MCP do Data Warehouse.
