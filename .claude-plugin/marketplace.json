@@ -57,8 +57,8 @@
     {
       "name": "trama-erp",
       "source": "./plugins/trama-erp",
-      "description": "Trama ERP: vendas, contabilidade, contas a pagar, fiscal e cadastros da Trama, com bloqueio de títulos a pagar.",
-      "version": "1.7.1"
+      "description": "Trama ERP: vendas, contabilidade, resultado contra o orçamento, contas a pagar e a receber e cadastros da Trama, com bloqueio de títulos a pagar e baixa de títulos a receber.",
+      "version": "1.8.0"
     },
     {
       "name": "drive-trama",

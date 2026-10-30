@@ -26,7 +26,7 @@ Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&g
 | --- | --- | --- | --- |
 | `drive-astral-ecom` | Drive Astral Ecom | Drive da Astral Ecom (plataforma de e-commerce para PMEs): a pasta `Astral Ecom/` da Controladoria é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/astral-ecom/drive` |
 | `email-astral-ecom` | Email Astral Ecom | Caixa de e-mail de Bianca Okuma, Controller da Astral Ecom, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/astral-ecom/mail` |
-| `trama-erp` | Trama ERP | ERP da Trama (workshop de Finanças): vendas, razão, balancete, DRE × orçamento, contas a pagar, notas de entrada e saída com IBS/CBS, produtos e fornecedores. A única escrita é bloquear títulos a pagar, só na sua carteira e com a sua aprovação. | `https://lagunaai.org/api/mcp/trama/erp` |
+| `trama-erp` | Trama ERP | ERP da Trama (workshop de Finanças): vendas, razão, balancete, resultado × orçamento, contas a pagar e a receber (aging), notas de entrada e saída, produtos e fornecedores. As escritas são bloquear títulos a pagar e baixar títulos a receber, só na sua carteira e com a sua aprovação. Versão própria 1.8.0. | `https://lagunaai.org/api/mcp/trama/erp` |
 | `drive-trama` | Drive Trama | Drive da Trama: a pasta `Trama/` (planejamento, políticas, contratos, extratos, vendas, fiscal, modelos) é somente leitura para participantes; o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/trama/drive` |
 | `email-trama` | Email Trama | Caixa de e-mail de Paulo Andrade, Diretor Financeiro da Trama, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/trama/mail` |
 
@@ -119,7 +119,10 @@ O nome técnico de cada plugin é o mesmo na pasta, nos manifests e nos dois mar
 
 6. Este repositório não tem um workflow de GitHub Actions para a release. Depois de gerar `dist/`, publique manualmente o GitHub Release com os arquivos ZIP; se o app também servir os ZIPs em `lagunaai.org`, atualize-os lá.
 
-## Versões do alameda-dados (1.0, 1.1, 1.2)
+## Versões próprias: trama-erp (1.8.0) e alameda-dados (1.0, 1.1, 1.2)
+
+O `trama-erp` está em 1.8.0 e os demais plugins seguem em 1.7.1 (exceção em `INDEPENDENT`, como o `alameda-dados`; os três manifests do `trama-erp` batem entre si). Na próxima release geral, alinhe tudo e tire o `trama-erp` de `INDEPENDENT`.
+
 
 Todos os plugins andam juntos na mesma versão (`check-versions.sh`), **exceto o `alameda-dados`**, que tem versão própria: o workshop de dados precisa dele em 1.0 (6 skills, estado inicial), 1.1 (+ `produtividade-por-m2`, plano B do Módulo 1) e 1.2 (+ `relatorio-semanal-regional`, plano B do Módulo 2).
 

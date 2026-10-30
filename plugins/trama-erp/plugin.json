@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "trama-erp",
-  "version": "1.7.1",
-  "description": "Trama ERP: vendas, contabilidade, contas a pagar, fiscal e cadastros da Trama, com bloqueio de títulos a pagar.",
+  "version": "1.8.0",
+  "description": "Trama ERP: vendas, contabilidade, resultado contra o orçamento, contas a pagar e a receber e cadastros da Trama, com bloqueio de títulos a pagar e baixa de títulos a receber.",
   "author": {
     "name": "Laguna AI",
     "url": "https://lagunaai.org"
@@ -19,7 +19,7 @@
       "interface": {
         "displayName": "Trama ERP",
         "shortDescription": "Os números da operação da Trama",
-        "longDescription": "Conecta o ChatGPT ao ERP da Trama, varejo de moda e casa: vendas por dia, loja, canal e meio de pagamento; razão, balancete e DRE gerencial contra o orçamento; contas a pagar com pedidos, notas e recebimentos; notas de saída com o grupo IBS/CBS; cadastros de produtos e fornecedores. A única escrita é bloquear títulos a pagar, só na sua carteira e com a sua aprovação. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT ao ERP da Trama, varejo de moda e casa: vendas por dia, loja, canal e meio de pagamento; razão, balancete e DRE gerencial; resultado realizado contra o orçamento por conta, centro de custo e loja; contas a pagar com pedidos, notas e recebimentos; contas a receber com aging; cadastros de produtos e fornecedores. As escritas são bloquear títulos a pagar e baixar títulos a receber, só na sua carteira e com a sua aprovação. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
@@ -30,8 +30,8 @@
         "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
         "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": [
-          "Como fechou o balancete de outubro? Diga o status do fechamento e se débitos e créditos batem.",
-          "Compare o resultado de outubro com o orçamento por linha da DRE e explique as maiores diferenças, citando as tabelas."
+          "Qual é o último mês fechado? Compare o resultado dele com o orçamento por linha da DRE e explique as maiores diferenças, citando as tabelas.",
+          "Liste os títulos a receber vencidos por faixa de atraso e proponha a lista numerada para baixa."
         ],
         "brandColor": "#142B35",
         "composerIcon": "./assets/icon.png",
