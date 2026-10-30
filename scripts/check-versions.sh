@@ -6,7 +6,7 @@
 # Exceção: plugins com versão própria (INDEPENDENT, hoje alameda-dados e trama-erp) precisam ter os TRÊS manifests iguais entre si,
 # mas não entram na regra de versão única nem na checagem da TAG. O alameda-dados é publicado em 1.0, 1.1 e 1.2 (as versões
 # do workshop; ver scripts/build-alameda-dados.sh): a versão que fica em plugins/ é a do marketplace (1.0.0). O trama-erp está
-# em 1.8.0 (instruções e ferramentas do workshop de Finanças v3) enquanto os demais seguem em 1.7.1; alinhe na próxima release geral.
+# em 1.8.1 (instruções e ferramentas do workshop de Finanças v3) enquanto os demais seguem em 1.7.1; alinhe na próxima release geral.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

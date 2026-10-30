@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "trama-erp",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Trama ERP: vendas, contabilidade, resultado contra o orçamento, contas a pagar e a receber e cadastros da Trama, com bloqueio de títulos a pagar e baixa de títulos a receber.",
   "author": {
     "name": "Laguna AI",
@@ -30,8 +30,8 @@
         "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
         "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": [
-          "Qual é o último mês fechado? Compare o resultado dele com o orçamento por linha da DRE e explique as maiores diferenças, citando as tabelas.",
-          "Liste os títulos a receber vencidos por faixa de atraso e proponha a lista numerada para baixa."
+          "Qual é o último mês fechado? Compare o resultado com o orçamento e explique as maiores diferenças.",
+          "Liste os títulos a receber vencidos por faixa de atraso."
         ],
         "brandColor": "#142B35",
         "composerIcon": "./assets/icon.png",

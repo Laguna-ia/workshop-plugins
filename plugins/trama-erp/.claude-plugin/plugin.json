@@ -1,6 +1,6 @@
 {
   "name": "trama-erp",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Trama ERP: vendas, contabilidade, resultado contra o orçamento, contas a pagar e a receber e cadastros da Trama, com bloqueio de títulos a pagar e baixa de títulos a receber.",
   "author": {
     "name": "Laguna AI",
