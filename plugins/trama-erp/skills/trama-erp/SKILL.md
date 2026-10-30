@@ -5,7 +5,7 @@ description: Como consultar o ERP da Trama, bloquear títulos a pagar e baixar t
 
 # Trama ERP
 
-O servidor MCP `trama-erp` expõe o ERP da Trama (varejo de moda e casa), no snapshot da carteira do usuário. O usuário é **Paulo Andrade, Diretor Financeiro**. As telas ficam em lagunaai.org/plataforma/empresa/trama/erp.
+O servidor MCP `trama-erp` expõe o ERP da Trama (varejo de moda e casa), no snapshot da carteira do usuário. O usuário é **Paulo Andrade, Diretor Financeiro**. Use sempre as ferramentas MCP deste plugin. Nunca abra o ERP pelo navegador. Se uma ferramenta não estiver disponível, diga ao usuário que o conector Trama ERP não está ativo nesta conversa e peça para reconectá-lo.
 
 ## Conectar a conta Laguna
 Se uma ferramenta responder "Autorização necessária: conecte sua conta Laguna", peça ao usuário para conectar: no plugin, seção MCPs, **Connect**; entrar com a conta Laguna e clicar em **Permitir**. Depois, repita a chamada.
