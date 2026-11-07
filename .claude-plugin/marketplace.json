@@ -76,7 +76,7 @@
       "name": "alameda-dados",
       "source": "./plugins/alameda-dados",
       "description": "Data Warehouse e skills do time de dados da Alameda.",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "drive-alameda",
