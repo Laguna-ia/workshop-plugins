@@ -6,7 +6,8 @@
 # Exceção: plugins com versão própria (INDEPENDENT, hoje alameda-dados e trama-erp) precisam ter os TRÊS manifests iguais entre si,
 # mas não entram na regra de versão única nem na checagem da TAG. O alameda-dados é publicado em 1.0, 1.1 e 1.2 (as versões
 # do workshop; ver scripts/build-alameda-dados.sh): a versão que fica em plugins/ é a do marketplace (1.0.1 desde o Módulo 2: salvar_segmentacao). O trama-erp está
-# em 1.8.1 (instruções e ferramentas do workshop de Finanças v3) enquanto os demais seguem em 1.7.1; alinhe na próxima release geral.
+# em 1.8.1 (instruções e ferramentas do workshop de Finanças v3) e o drive-brito-castelar em 1.7.2 (pasta Petições históricas)
+# enquanto os demais seguem em 1.7.1; alinhe na próxima release geral.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
@@ -16,7 +17,7 @@ tag = sys.argv[1].lstrip("v") if len(sys.argv) > 1 and sys.argv[1] else None
 load = lambda p: json.load(open(p, encoding="utf-8"))
 claude_mkt = {p["name"]: p for p in load(".claude-plugin/marketplace.json")["plugins"]}
 agents_mkt = {p["name"]: p for p in load(".agents/plugins/marketplace.json")["plugins"]}
-INDEPENDENT = {"alameda-dados", "trama-erp"}
+INDEPENDENT = {"alameda-dados", "trama-erp", "drive-brito-castelar"}
 errors, versions = [], set()
 names = sorted(d for d in os.listdir("plugins") if os.path.isdir(os.path.join("plugins", d)))
 if set(names) != set(claude_mkt) or set(names) != set(agents_mkt):
