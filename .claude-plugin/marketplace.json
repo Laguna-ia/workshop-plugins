@@ -1,6 +1,6 @@
 {
   "name": "laguna",
-  "description": "Plugins dos workshops da Laguna AI: Vértice (CRM, Pulso, Drive Vértice e Email Vértice), Casa em Dia (Drive Casa em Dia e Email Casa em Dia), Astral Ecom (Drive Astral Ecom e Email Astral Ecom) e Alameda (Alameda Dados, Drive Alameda e Email Alameda)",
+  "description": "Plugins dos workshops da Laguna AI: Vértice (CRM, Pulso, Drive Vértice e Email Vértice), Casa em Dia (Drive Casa em Dia e Email Casa em Dia), Astral Ecom (Drive Astral Ecom e Email Astral Ecom) Alameda (Alameda Dados, Drive Alameda e Email Alameda) e Brito Castelar (Drive Brito Castelar, Email Brito Castelar e Julgados.ai)",
   "owner": {
     "name": "Laguna",
     "url": "https://lagunaai.org"
@@ -101,6 +101,12 @@
       "source": "./plugins/email-brito-castelar",
       "description": "Email Brito Castelar: a caixa do(a) associado(a) do contencioso, com leitura, contatos, respostas e envio de mensagens.",
       "version": "1.7.1"
+    },
+    {
+      "name": "julgados-ai",
+      "source": "./plugins/julgados-ai",
+      "description": "Julgados.ai: o acervo do escritório (casos, linha do tempo, peças, teses, prazos, memória), o amparo jurídico (súmulas, temas, legislação com vigência) e as atualizações do tribunal, para pesquisar, acompanhar casos e redigir peças.",
+      "version": "0.22.0"
     }
   ]
 }

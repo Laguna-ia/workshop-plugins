@@ -39,6 +39,7 @@ Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&g
 | `email-alameda` | Email Alameda | Caixa de e-mail de Juliana Prado, Head de Dados da Alameda, com leitura, contatos, respostas e envio de mensagens (inclusive para si mesma). Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/alameda/mail` |
 | `drive-brito-castelar` | Drive Brito Castelar | Drive do escritório Brito Castelar Advogados (workshop Jurídico): autos dos processos em PDF por cliente, papel timbrado e identidade visual. `Brito Castelar/Clientes/` é gravável pelo participante (histórico e peças na pasta do caso); o resto é somente leitura. | `https://lagunaai.org/api/mcp/brito-castelar/drive` |
 | `email-brito-castelar` | Email Brito Castelar | Caixa do(a) Associado(a) — Contencioso (associado@britocastelar.adv.br), com leitura, contatos, respostas e envio para o time do escritório. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/brito-castelar/mail` |
+| `julgados-ai` | Julgados.ai | Plugin de terceiro (Canon Knowledge), usado só no workshop Jurídico: acervo do escritório (casos, linha do tempo, peças, teses, prazos, memória), amparo jurídico (súmulas, temas, acórdãos e legislação com vigência) e atualizações do tribunal, com skills para acompanhar casos e redigir, revisar ou combater peças. Login pela conta do escritório no Julgados.ai, não pela conta Laguna. Versão do fornecedor (0.22.0). | `https://julgados.lovable.app/api/mcp` |
 
 > **Credenciais:** os plugins não guardam token, senha nem chave. O acesso é feito por OAuth: na primeira vez que o plugin é usado, você entra com a sua conta Laguna e o ChatGPT/Claude guarda a autorização do seu lado. Nada de credencial deve ser commitado neste repositório (ele é público).
 
@@ -82,13 +83,14 @@ No Codex CLI: `codex plugin marketplace add Laguna-ia/workshop-plugins`.
 /plugin install email-alameda@laguna
 /plugin install drive-brito-castelar@laguna
 /plugin install email-brito-castelar@laguna
+/plugin install julgados-ai@laguna
 ```
 
 Pelo terminal: `claude plugin marketplace add Laguna-ia/workshop-plugins` e `claude plugin install vertice-crm@laguna`. Para receber versões novas: `/plugin marketplace update laguna`. No primeiro uso, autorize o servidor MCP (login Laguna) em `/mcp`.
 
 ## Instalar por zip
 
-Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`, `trama-erp.zip`, `drive-trama.zip`, `email-trama.zip`, `alameda-dados-1.0.zip` (e `-1.1`, `-1.2`), `drive-alameda.zip`, `email-alameda.zip`, `drive-brito-castelar.zip`, `email-brito-castelar.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [lagunaai.org/plataforma/empresa/plugins](https://lagunaai.org/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
+Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`, `trama-erp.zip`, `drive-trama.zip`, `email-trama.zip`, `alameda-dados-1.0.zip` (e `-1.1`, `-1.2`), `drive-alameda.zip`, `email-alameda.zip`, `drive-brito-castelar.zip`, `email-brito-castelar.zip`, `julgados-ai.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [lagunaai.org/plataforma/empresa/plugins](https://lagunaai.org/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
 
 ## Estrutura
 

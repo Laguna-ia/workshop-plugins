@@ -1,0 +1,26 @@
+{
+  "name": "julgados-ai",
+  "version": "0.22.0",
+  "description": "Julgados.ai: o acervo do escritório (casos, linha do tempo, peças, teses, prazos, memória), o amparo jurídico (súmulas, temas, legislação com vigência) e as atualizações do tribunal, para pesquisar, acompanhar casos e redigir peças.",
+  "author": {
+    "name": "Canon Knowledge",
+    "url": "https://github.com/Canon-Knowledge"
+  },
+  "homepage": "https://julgados.lovable.app",
+  "license": "LicenseRef-Proprietary",
+  "keywords": [
+    "juridico",
+    "jurisprudencia",
+    "legislacao",
+    "processo",
+    "peticao",
+    "acervo",
+    "mcp"
+  ],
+  "mcpServers": {
+    "julgados": {
+      "type": "http",
+      "url": "https://julgados.lovable.app/api/mcp"
+    }
+  }
+}
