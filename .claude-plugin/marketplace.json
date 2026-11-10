@@ -94,7 +94,7 @@
       "name": "drive-brito-castelar",
       "source": "./plugins/drive-brito-castelar",
       "description": "Drive Brito Castelar: os autos e os modelos do escritório e a sua pasta, onde o assistente salva documentos quando você pedir.",
-      "version": "1.7.2"
+      "version": "1.7.3"
     },
     {
       "name": "email-brito-castelar",
