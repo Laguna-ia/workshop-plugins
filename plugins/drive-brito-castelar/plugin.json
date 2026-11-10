@@ -20,7 +20,7 @@
       "interface": {
         "displayName": "Drive Brito Castelar",
         "shortDescription": "Autos e arquivos do escritório Brito Castelar",
-        "longDescription": "Conecta o ChatGPT ao drive do Brito Castelar Advogados, escritório de contencioso cível e empresarial: os autos de cada processo em PDF, organizados por cliente, o papel timbrado e a identidade visual. Os autos são somente leitura; quando você pedir, o assistente salva o histórico do caso, minutas e peças na pasta do processo (Clientes) ou em Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/brito-castelar/drive. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT ao drive do Brito Castelar Advogados, escritório de contencioso cível e empresarial: os autos de cada processo em PDF, organizados por cliente, os contratos de honorários, o papel timbrado e a identidade visual. Autos e contratos são somente leitura; quando você pedir, o assistente salva o controle dos casos na pasta Gestão, minutas e peças na pasta do processo (Clientes) ou em Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/brito-castelar/drive. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
@@ -32,7 +32,7 @@
         "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": [
           "Liste os arquivos da pasta Autos do caso do Eduardo.",
-          "Leia a contestação do caso Eduardo e me diga quais são as teses da defesa."
+          "Quais contratos de honorários temos no Drive e quais estão assinados?"
         ],
         "brandColor": "#1F3A33",
         "composerIcon": "./assets/icon.png",

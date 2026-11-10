@@ -19,7 +19,7 @@
       "interface": {
         "displayName": "Email Brito Castelar",
         "shortDescription": "Caixa de e-mail do escritório Brito Castelar",
-        "longDescription": "Conecta o ChatGPT à caixa de e-mail do(a) Associado(a) — Contencioso do Brito Castelar Advogados (associado@britocastelar.adv.br): os pedidos dos sócios, os e-mails dos clientes e os comunicados do escritório. Lê, resume, responde e envia mensagens para o time do escritório, com anexos do Drive Brito Castelar. Você vê a caixa em lagunaai.org/plataforma/empresa/brito-castelar/email. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT à caixa de e-mail do(a) Associado(a) — Contencioso do Brito Castelar Advogados (associado@britocastelar.adv.br): os pedidos dos sócios, os comunicados do escritório e os avisos de assinatura dos contratos (Rubrica). Lê, resume, responde e envia mensagens para o time do escritório, com anexos do Drive Brito Castelar. Você vê a caixa em lagunaai.org/plataforma/empresa/brito-castelar/email. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
