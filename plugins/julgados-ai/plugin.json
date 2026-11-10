@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "julgados-ai",
+  "version": "0.22.0",
+  "description": "Julgados.ai: o acervo do escritório (casos, linha do tempo, peças, teses, prazos, memória), o amparo jurídico (súmulas, temas, legislação com vigência) e as atualizações do tribunal, para pesquisar, acompanhar casos e redigir peças.",
+  "author": {
+    "name": "Canon Knowledge",
+    "url": "https://github.com/Canon-Knowledge"
+  },
+  "homepage": "https://julgados.lovable.app",
+  "license": "LicenseRef-Proprietary",
+  "keywords": [
+    "juridico",
+    "jurisprudencia",
+    "legislacao",
+    "processo",
+    "peticao",
+    "acervo",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Julgados.ai",
+        "shortDescription": "Casos, jurisprudência e peças do escritório",
+        "longDescription": "Conecta o ChatGPT ao Julgados.ai. No ACERVO, lê e atualiza os casos do escritório: briefing, linha do tempo, peças dos autos, teses, prazos, memória, clientes e contratos, além das novidades que chegam do tribunal. No AMPARO, pesquisa súmulas, temas repetitivos e de repercussão geral, acórdãos e legislação com vigência, sempre com fonte citável. Com isso acompanha casos, processa as atualizações do tribunal e redige, revisa ou combate peças. Login pela conta do escritório no Julgados.ai.",
+        "developerName": "Canon Knowledge",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://julgados.lovable.app",
+        "defaultPrompt": [
+          "Como está minha carteira? O que precisa de mim esta semana?",
+          "Processa o que chegou do tribunal nos meus casos.",
+          "Me atualiza sobre o caso do Eduardo Marangoni: o que mudou e o que fazer."
+        ],
+        "brandColor": "#162235",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
