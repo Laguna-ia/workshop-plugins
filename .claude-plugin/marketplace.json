@@ -89,6 +89,18 @@
       "source": "./plugins/email-alameda",
       "description": "Email Alameda: caixa de e-mail da Alameda com leitura, contatos, respostas e envio de mensagens.",
       "version": "1.7.2"
+    },
+    {
+      "name": "drive-brito-castelar",
+      "source": "./plugins/drive-brito-castelar",
+      "description": "Drive Brito Castelar: os autos e os modelos do escritório e a sua pasta, onde o assistente salva documentos quando você pedir.",
+      "version": "1.7.1"
+    },
+    {
+      "name": "email-brito-castelar",
+      "source": "./plugins/email-brito-castelar",
+      "description": "Email Brito Castelar: a caixa do(a) associado(a) do contencioso, com leitura, contatos, respostas e envio de mensagens.",
+      "version": "1.7.1"
     }
   ]
 }
