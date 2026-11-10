@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "drive-brito-castelar",
+  "version": "1.7.1",
+  "description": "Drive Brito Castelar: os autos e os modelos do escritório e a sua pasta, onde o assistente salva documentos quando você pedir.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/brito-castelar/drive",
+  "keywords": [
+    "drive",
+    "arquivos",
+    "mcp",
+    "juridico",
+    "brito-castelar"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Drive Brito Castelar",
+        "shortDescription": "Autos e arquivos do escritório Brito Castelar",
+        "longDescription": "Conecta o ChatGPT ao drive do Brito Castelar Advogados, escritório de contencioso cível e empresarial: os autos de cada processo em PDF, organizados por cliente, o papel timbrado e a identidade visual. Os autos são somente leitura; quando você pedir, o assistente salva o histórico do caso, minutas e peças na pasta do processo (Clientes) ou em Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/brito-castelar/drive. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/brito-castelar/drive",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Liste os arquivos da pasta Autos do caso do Eduardo.",
+          "Leia a contestação do caso Eduardo e me diga quais são as teses da defesa."
+        ],
+        "brandColor": "#1F3A33",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

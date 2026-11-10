@@ -171,6 +171,30 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "drive-brito-castelar",
+      "source": {
+        "source": "local",
+        "path": "./plugins/drive-brito-castelar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "email-brito-castelar",
+      "source": {
+        "source": "local",
+        "path": "./plugins/email-brito-castelar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }

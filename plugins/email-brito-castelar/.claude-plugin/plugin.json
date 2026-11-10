@@ -1,0 +1,22 @@
+{
+  "name": "email-brito-castelar",
+  "version": "1.7.1",
+  "description": "Email Brito Castelar: a caixa do(a) associado(a) do contencioso, com leitura, contatos, respostas e envio de mensagens.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/brito-castelar/email",
+  "keywords": [
+    "email",
+    "mcp",
+    "juridico",
+    "brito-castelar"
+  ],
+  "mcpServers": {
+    "email-brito-castelar": {
+      "type": "http",
+      "url": "https://lagunaai.org/api/mcp/brito-castelar/mail"
+    }
+  }
+}
