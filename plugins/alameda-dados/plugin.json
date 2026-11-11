@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "alameda-dados",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Data Warehouse e skills do time de dados da Alameda",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa/plugins",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/plugins",
   "keywords": [
     "dados",
     "data warehouse",
@@ -27,9 +27,9 @@
           "Read",
           "Write"
         ],
-        "websiteURL": "https://lagunaai.org/plataforma/empresa/plugins",
-        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
-        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/plugins",
+        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
+        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
         "defaultPrompt": [
           "Quais são as queries mais executadas do time e o que cada uma calcula?"
         ],

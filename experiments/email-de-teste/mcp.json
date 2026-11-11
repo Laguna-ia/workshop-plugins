@@ -3,7 +3,7 @@
   "mcpServers": {
     "email-de-teste": {
       "type": "streamable-http",
-      "url": "https://lagunaai.org/api/mcp/mail"
+      "url": "https://plataforma.lagunaai.co/api/mcp/mail"
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "email-alameda",
-  "version": "1.7.2",
+  "version": "1.8.0",
   "description": "Email Alameda: a caixa de e-mail da Head de Dados da Alameda, com leitura, contatos, respostas e envio de mensagens.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa/alameda/email",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/alameda/email",
   "keywords": [
     "email",
     "e-mail",
@@ -26,9 +26,9 @@
           "Read",
           "Write"
         ],
-        "websiteURL": "https://lagunaai.org/plataforma/empresa/alameda/email",
-        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
-        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/alameda/email",
+        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
+        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
         "defaultPrompt": [
           "Quais e-mails não lidos eu tenho? Resuma o que cada um pede de mim.",
           "Leia o e-mail da CEO sobre shopping ou rua e liste o que ela quer que eu entregue."

@@ -5,7 +5,7 @@ description: Como ler, resumir, responder e enviar e-mails na caixa da Diretor F
 
 # Email Trama
 
-O servidor MCP `email-trama` expõe a caixa de e-mail de **Paulo Andrade** (paulo@trama.example), Diretor Financeiro da Trama (varejo de moda e casa, nas lojas e online). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em lagunaai.org/plataforma/empresa/trama/email.
+O servidor MCP `email-trama` expõe a caixa de e-mail de **Paulo Andrade** (paulo@trama.example), Diretor Financeiro da Trama (varejo de moda e casa, nas lojas e online). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em plataforma.lagunaai.co/plataforma/empresa/trama/email.
 
 ## Usar as ferramentas do plugin
 
