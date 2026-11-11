@@ -1,12 +1,12 @@
 {
   "name": "vertice-crm",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "CRM da Vértice: contas, oportunidades, atividades, reuniões e tarefas.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa",
+  "homepage": "https://lagunaai.org/plataforma/empresa",
   "keywords": [
     "crm",
     "mcp",
@@ -15,7 +15,7 @@
   "mcpServers": {
     "vertice-crm": {
       "type": "http",
-      "url": "https://plataforma.lagunaai.co/api/mcp/crm"
+      "url": "https://lagunaai.org/api/mcp/crm"
     }
   }
 }

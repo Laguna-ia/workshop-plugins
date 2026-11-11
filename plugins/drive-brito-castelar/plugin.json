@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "drive-brito-castelar",
-  "version": "1.7.4",
+  "version": "1.7.5",
   "description": "Drive Brito Castelar: os autos e os modelos do escritório e a sua pasta, onde o assistente salva documentos quando você pedir.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/brito-castelar/drive",
+  "homepage": "https://lagunaai.org/plataforma/empresa/brito-castelar/drive",
   "keywords": [
     "drive",
     "arquivos",
@@ -20,16 +20,16 @@
       "interface": {
         "displayName": "Drive Brito Castelar",
         "shortDescription": "Autos e arquivos do escritório Brito Castelar",
-        "longDescription": "Conecta o ChatGPT ao drive do Brito Castelar Advogados, escritório de contencioso cível e empresarial: os autos de cada processo em PDF, organizados por cliente, os contratos de honorários, o papel timbrado e a identidade visual. Autos e contratos são somente leitura; quando você pedir, o assistente salva o controle dos casos na pasta Gestão, minutas e peças na pasta do processo (Clientes) ou em Meus arquivos, que você vê em plataforma.lagunaai.co/plataforma/empresa/brito-castelar/drive. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT ao drive do Brito Castelar Advogados, escritório de contencioso cível e empresarial: os autos de cada processo em PDF, organizados por cliente, os contratos de honorários, o papel timbrado e a identidade visual. Autos e contratos são somente leitura; quando você pedir, o assistente salva o controle dos casos na pasta Gestão, minutas e peças na pasta do processo (Clientes) ou em Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/brito-castelar/drive. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
           "Read",
           "Write"
         ],
-        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/brito-castelar/drive",
-        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
-        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/brito-castelar/drive",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": [
           "Liste os arquivos da pasta Autos do caso do Eduardo.",
           "Quais contratos de honorários temos no Drive e quais estão assinados?"

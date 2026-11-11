@@ -1,12 +1,12 @@
 {
   "name": "email-astral-ecom",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Email Astral Ecom: caixa de e-mail da Astral Ecom com leitura, contatos, respostas e envio de mensagens.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/astral-ecom/email",
+  "homepage": "https://lagunaai.org/plataforma/empresa/astral-ecom/email",
   "keywords": [
     "email",
     "e-mail",
@@ -16,7 +16,7 @@
   "mcpServers": {
     "email-astral-ecom": {
       "type": "http",
-      "url": "https://plataforma.lagunaai.co/api/mcp/astral-ecom/mail"
+      "url": "https://lagunaai.org/api/mcp/astral-ecom/mail"
     }
   }
 }

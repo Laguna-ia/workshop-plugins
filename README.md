@@ -1,6 +1,6 @@
 # Plugins dos workshops Laguna
 
-Marketplace dos plugins usados nos workshops da [Laguna AI](https://plataforma.lagunaai.co). Cada workshop tem a sua empresa fictícia, e toda empresa tem ao menos Drive e e-mail. Este repositório serve os mesmos plugins para o **ChatGPT** (Business/Enterprise, Codex) e para o **Claude** (Claude Code).
+Marketplace dos plugins usados nos workshops da [Laguna AI](https://lagunaai.org). Cada workshop tem a sua empresa fictícia, e toda empresa tem ao menos Drive e e-mail. Este repositório serve os mesmos plugins para o **ChatGPT** (Business/Enterprise, Codex) e para o **Claude** (Claude Code).
 
 Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&gt;** e **Email &lt;Empresa&gt;**. O nome técnico (pasta, manifests, marketplaces e chave do servidor MCP) não muda depois de publicado, para que as instalações existentes continuem se atualizando.
 
@@ -8,37 +8,37 @@ Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&g
 
 | Plugin | Nome exibido | O que faz | Servidor MCP |
 | --- | --- | --- | --- |
-| `vertice-crm` | Vértice CRM | CRM da Vértice: contas, contatos, oportunidades, atividades, reuniões, documentos e tarefas. Escritas afetam só a sua carteira e pedem sua aprovação. | `https://plataforma.lagunaai.co/api/mcp/crm` |
-| `vertice-pulso` | Vértice Pulso | Dados de uso do produto (contas, usuários, convites, eventos, integrações, logs e limites contratados) em SQL somente leitura. | `https://plataforma.lagunaai.co/api/mcp/produto` |
-| `vertice-drive` | Drive Vértice | Drive da Vértice: arquivos da empresa e a sua pasta Meus arquivos, onde o assistente salva documentos (DOCX no modelo Vértice), planilhas e textos, só quando você pedir. | `https://plataforma.lagunaai.co/api/mcp/drive` |
-| `vertice-mail` | Email Vértice | Caixa de e-mail do Diretor Comercial da Vértice, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://plataforma.lagunaai.co/api/mcp/mail` |
+| `vertice-crm` | Vértice CRM | CRM da Vértice: contas, contatos, oportunidades, atividades, reuniões, documentos e tarefas. Escritas afetam só a sua carteira e pedem sua aprovação. | `https://lagunaai.org/api/mcp/crm` |
+| `vertice-pulso` | Vértice Pulso | Dados de uso do produto (contas, usuários, convites, eventos, integrações, logs e limites contratados) em SQL somente leitura. | `https://lagunaai.org/api/mcp/produto` |
+| `vertice-drive` | Drive Vértice | Drive da Vértice: arquivos da empresa e a sua pasta Meus arquivos, onde o assistente salva documentos (DOCX no modelo Vértice), planilhas e textos, só quando você pedir. | `https://lagunaai.org/api/mcp/drive` |
+| `vertice-mail` | Email Vértice | Caixa de e-mail do Diretor Comercial da Vértice, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/mail` |
 
 ### Casa em Dia (workshop de marketing)
 
 | Plugin | Nome exibido | O que faz | Servidor MCP |
 | --- | --- | --- | --- |
-| `drive-casa-em-dia` | Drive Casa em Dia | Drive da Casa em Dia (manutenção residencial com planos de assinatura): a pasta `Casa em Dia/` é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://plataforma.lagunaai.co/api/mcp/casa-em-dia/drive` |
-| `email-casa-em-dia` | Email Casa em Dia | Caixa de e-mail de Lívia Andrade, Head de Marketing da Casa em Dia, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://plataforma.lagunaai.co/api/mcp/casa-em-dia/mail` |
+| `drive-casa-em-dia` | Drive Casa em Dia | Drive da Casa em Dia (manutenção residencial com planos de assinatura): a pasta `Casa em Dia/` é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/casa-em-dia/drive` |
+| `email-casa-em-dia` | Email Casa em Dia | Caixa de e-mail de Lívia Andrade, Head de Marketing da Casa em Dia, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/casa-em-dia/mail` |
 
 ### Astral Ecom (workshop de finanças)
 
 | Plugin | Nome exibido | O que faz | Servidor MCP |
 | --- | --- | --- | --- |
-| `drive-astral-ecom` | Drive Astral Ecom | Drive da Astral Ecom (plataforma de e-commerce para PMEs): a pasta `Astral Ecom/` da Controladoria é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://plataforma.lagunaai.co/api/mcp/astral-ecom/drive` |
-| `email-astral-ecom` | Email Astral Ecom | Caixa de e-mail de Bianca Okuma, Controller da Astral Ecom, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://plataforma.lagunaai.co/api/mcp/astral-ecom/mail` |
-| `trama-erp` | Trama ERP | ERP da Trama (workshop de Finanças): vendas, razão, balancete, resultado × orçamento, contas a pagar e a receber (aging), notas de entrada e saída, produtos e fornecedores. As escritas são bloquear títulos a pagar e baixar títulos a receber, só na sua carteira e com a sua aprovação. Versão própria 1.8.1. | `https://plataforma.lagunaai.co/api/mcp/trama/erp` |
-| `drive-trama` | Drive Trama | Drive da Trama: a pasta `Trama/` (planejamento, políticas, contratos, extratos, vendas, fiscal, modelos) é somente leitura para participantes; o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://plataforma.lagunaai.co/api/mcp/trama/drive` |
-| `email-trama` | Email Trama | Caixa de e-mail de Paulo Andrade, Diretor Financeiro da Trama, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://plataforma.lagunaai.co/api/mcp/trama/mail` |
+| `drive-astral-ecom` | Drive Astral Ecom | Drive da Astral Ecom (plataforma de e-commerce para PMEs): a pasta `Astral Ecom/` da Controladoria é somente leitura para participantes (só instrutores gravam); o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/astral-ecom/drive` |
+| `email-astral-ecom` | Email Astral Ecom | Caixa de e-mail de Bianca Okuma, Controller da Astral Ecom, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/astral-ecom/mail` |
+| `trama-erp` | Trama ERP | ERP da Trama (workshop de Finanças): vendas, razão, balancete, resultado × orçamento, contas a pagar e a receber (aging), notas de entrada e saída, produtos e fornecedores. As escritas são bloquear títulos a pagar e baixar títulos a receber, só na sua carteira e com a sua aprovação. Versão própria 1.8.1. | `https://lagunaai.org/api/mcp/trama/erp` |
+| `drive-trama` | Drive Trama | Drive da Trama: a pasta `Trama/` (planejamento, políticas, contratos, extratos, vendas, fiscal, modelos) é somente leitura para participantes; o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. | `https://lagunaai.org/api/mcp/trama/drive` |
+| `email-trama` | Email Trama | Caixa de e-mail de Paulo Andrade, Diretor Financeiro da Trama, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/trama/mail` |
 
 ### Alameda (workshop de dados)
 
 | Plugin | Nome exibido | O que faz | Servidor MCP |
 | --- | --- | --- | --- |
-| `alameda-dados` | Alameda Dados | Data Warehouse da Alameda em SQL somente leitura (tabelas `al_*`, comentários de coluna, catálogo de queries salvas com o SQL completo e o uso de cada uma) e as skills do time de dados. Versões próprias 1.0, 1.1 e 1.2 (ver abaixo). | `https://plataforma.lagunaai.co/api/mcp/dw` |
-| `drive-alameda` | Drive Alameda | Drive da Alameda: a pasta `Alameda/` é somente leitura para participantes, exceto `Alameda/Dados/`, gravável; o assistente salva documentos, planilhas e textos só quando você pedir. | `https://plataforma.lagunaai.co/api/mcp/alameda/drive` |
-| `email-alameda` | Email Alameda | Caixa de e-mail de Juliana Prado, Head de Dados da Alameda, com leitura, contatos, respostas e envio de mensagens (inclusive para si mesma). Envios pedem sua aprovação. | `https://plataforma.lagunaai.co/api/mcp/alameda/mail` |
-| `drive-brito-castelar` | Drive Brito Castelar | Drive do escritório Brito Castelar Advogados (workshop Jurídico): autos dos processos em PDF por cliente, papel timbrado e identidade visual. `Brito Castelar/Clientes/` é gravável pelo participante (histórico e peças na pasta do caso); o resto é somente leitura. | `https://plataforma.lagunaai.co/api/mcp/brito-castelar/drive` |
-| `email-brito-castelar` | Email Brito Castelar | Caixa do(a) Associado(a) — Contencioso (associado@britocastelar.adv.br), com leitura, contatos, respostas e envio para o time do escritório. Envios pedem sua aprovação. | `https://plataforma.lagunaai.co/api/mcp/brito-castelar/mail` |
+| `alameda-dados` | Alameda Dados | Data Warehouse da Alameda em SQL somente leitura (tabelas `al_*`, comentários de coluna, catálogo de queries salvas com o SQL completo e o uso de cada uma) e as skills do time de dados. Versões próprias 1.0, 1.1 e 1.2 (ver abaixo). | `https://lagunaai.org/api/mcp/dw` |
+| `drive-alameda` | Drive Alameda | Drive da Alameda: a pasta `Alameda/` é somente leitura para participantes, exceto `Alameda/Dados/`, gravável; o assistente salva documentos, planilhas e textos só quando você pedir. | `https://lagunaai.org/api/mcp/alameda/drive` |
+| `email-alameda` | Email Alameda | Caixa de e-mail de Juliana Prado, Head de Dados da Alameda, com leitura, contatos, respostas e envio de mensagens (inclusive para si mesma). Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/alameda/mail` |
+| `drive-brito-castelar` | Drive Brito Castelar | Drive do escritório Brito Castelar Advogados (workshop Jurídico): autos dos processos em PDF por cliente, papel timbrado e identidade visual. `Brito Castelar/Clientes/` é gravável pelo participante (histórico e peças na pasta do caso); o resto é somente leitura. | `https://lagunaai.org/api/mcp/brito-castelar/drive` |
+| `email-brito-castelar` | Email Brito Castelar | Caixa do(a) Associado(a) — Contencioso (associado@britocastelar.adv.br), com leitura, contatos, respostas e envio para o time do escritório. Envios pedem sua aprovação. | `https://lagunaai.org/api/mcp/brito-castelar/mail` |
 | `julgados-ai` | Julgados.ai | Plugin de terceiro (Canon Knowledge), usado só no workshop Jurídico: acervo do escritório (casos, linha do tempo, peças, teses, prazos, memória), amparo jurídico (súmulas, temas, acórdãos e legislação com vigência) e atualizações do tribunal, com skills para acompanhar casos e redigir, revisar ou combater peças. Login pela conta do escritório no Julgados.ai, não pela conta Laguna. Versão do fornecedor (0.22.0). | `https://julgados.lovable.app/api/mcp` |
 
 > **Credenciais:** os plugins não guardam token, senha nem chave. O acesso é feito por OAuth: na primeira vez que o plugin é usado, você entra com a sua conta Laguna e o ChatGPT/Claude guarda a autorização do seu lado. Nada de credencial deve ser commitado neste repositório (ele é público).
@@ -90,7 +90,7 @@ Pelo terminal: `claude plugin marketplace add Laguna-ia/workshop-plugins` e `cla
 
 ## Instalar por zip
 
-Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`, `trama-erp.zip`, `drive-trama.zip`, `email-trama.zip`, `alameda-dados-1.0.zip` (e `-1.1`, `-1.2`), `drive-alameda.zip`, `email-alameda.zip`, `drive-brito-castelar.zip`, `email-brito-castelar.zip`, `julgados-ai.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [plataforma.lagunaai.co/plataforma/empresa/plugins](https://plataforma.lagunaai.co/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
+Para quem não é admin do workspace ou usa ChatGPT Plus/Pro: baixe o zip de cada plugin (`vertice-crm.zip`, `vertice-pulso.zip`, `vertice-drive.zip`, `vertice-mail.zip`, `drive-casa-em-dia.zip`, `email-casa-em-dia.zip`, `drive-astral-ecom.zip`, `email-astral-ecom.zip`, `trama-erp.zip`, `drive-trama.zip`, `email-trama.zip`, `alameda-dados-1.0.zip` (e `-1.1`, `-1.2`), `drive-alameda.zip`, `email-alameda.zip`, `drive-brito-castelar.zip`, `email-brito-castelar.zip`, `julgados-ai.zip`) na página de [Releases](https://github.com/Laguna-ia/workshop-plugins/releases/latest) ou em [lagunaai.org/plataforma/empresa/plugins](https://lagunaai.org/plataforma/empresa/plugins) e siga as instruções de lá. Instalações por zip não se atualizam sozinhas.
 
 ## Estrutura
 
@@ -123,7 +123,7 @@ O nome técnico de cada plugin é o mesmo na pasta, nos manifests e nos dois mar
    git push origin main v1.6.1
    ```
 
-6. Este repositório não tem um workflow de GitHub Actions para a release. Depois de gerar `dist/`, publique manualmente o GitHub Release com os arquivos ZIP; se o app também servir os ZIPs em `plataforma.lagunaai.co`, atualize-os lá.
+6. Este repositório não tem um workflow de GitHub Actions para a release. Depois de gerar `dist/`, publique manualmente o GitHub Release com os arquivos ZIP; se o app também servir os ZIPs em `lagunaai.org`, atualize-os lá.
 
 ## Versões próprias: trama-erp (1.8.1) e alameda-dados (1.0, 1.1, 1.2)
 

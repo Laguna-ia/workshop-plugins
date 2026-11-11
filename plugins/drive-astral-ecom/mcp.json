@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "drive-astral-ecom": { "type": "streamable-http", "url": "https://plataforma.lagunaai.co/api/mcp/astral-ecom/drive" }
+    "drive-astral-ecom": { "type": "streamable-http", "url": "https://lagunaai.org/api/mcp/astral-ecom/drive" }
   }
 }

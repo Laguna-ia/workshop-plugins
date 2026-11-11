@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vertice-crm",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "CRM da Vértice: contas, oportunidades, atividades, reuniões e tarefas.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa",
+  "homepage": "https://lagunaai.org/plataforma/empresa",
   "keywords": [
     "crm",
     "mcp",
@@ -25,9 +25,9 @@
           "Read",
           "Write"
         ],
-        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa",
-        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
-        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
+        "websiteURL": "https://lagunaai.org/plataforma/empresa",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": [
           "Quais oportunidades abertas têm fechamento previsto até o fim do mês e quais estão sem próximo passo definido?",
           "Resuma a negociação com o Grupo Horizonte: reuniões, pessoas envolvidas, valor registrado e riscos, citando as fontes."

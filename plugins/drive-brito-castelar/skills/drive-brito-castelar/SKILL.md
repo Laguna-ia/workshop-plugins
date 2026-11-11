@@ -91,7 +91,7 @@ O servidor MCP `drive-brito-castelar` expõe duas pastas:
   - **Petições históricas/<tipo>/**: peças antigas do escritório em Word, separadas por tipo (o nome do arquivo começa pelo tipo: 'Embargos de declaração', 'Resposta a embargos de declaração', 'Petição inicial - Execução de título extrajudicial'). Para estudar estrutura e linguagem, `read_file` basta. Para aprender a FORMATAÇÃO (fonte, margens, recuos, espaçamento, notas de rodapé, timbrado) ou criar uma skill de redação, baixe o .docx original com `get_download_link` e analise o arquivo no host (ex.: python-docx).
   - **Gestão/**: planilha de controle de casos do contencioso (.xlsx); aceita nova versão.
 - **Brito Castelar/Gestão/** e **Brito Castelar/Clientes/** são **graváveis** pelo participante (cada pessoa tem a sua cópia do que salvar; autos e contratos originais nunca mudam). O controle dos casos vai em `folder: "Brito Castelar/Gestão"`; uma minuta ou peça vai na **pasta do processo** (ex.: `folder: "Brito Castelar/Clientes/Eduardo de Mendes Marangoni/Helena x Eduardo - Obrigacao de nao fazer - 4900216-06.2026.8.26.0017"`), quando o usuário pedir para salvar. O resto de **Brito Castelar/** (Contratos de honorários, Modelos, Petições históricas, Identidade visual) é **somente leitura**.
-- **Meus arquivos/**: pasta do usuário. O que é salvo aparece em plataforma.lagunaai.co/plataforma/empresa/brito-castelar/drive.
+- **Meus arquivos/**: pasta do usuário. O que é salvo aparece em lagunaai.org/plataforma/empresa/brito-castelar/drive.
 
 Se uma ferramenta responder "Autorização necessária: conecte sua conta Laguna", oriente a conectar no plugin, seção MCPs, **Connect**, entrar com a conta Laguna e clicar em **Permitir**. Depois, repita a chamada.
 

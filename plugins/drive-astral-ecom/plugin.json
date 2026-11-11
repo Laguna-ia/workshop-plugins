@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "drive-astral-ecom",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Drive Astral Ecom: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/astral-ecom/drive",
+  "homepage": "https://lagunaai.org/plataforma/empresa/astral-ecom/drive",
   "keywords": [
     "drive",
     "arquivos",
@@ -19,16 +19,16 @@
       "interface": {
         "displayName": "Drive Astral Ecom",
         "shortDescription": "Arquivos da empresa Astral Ecom",
-        "longDescription": "Conecta o ChatGPT ao drive da Astral Ecom, plataforma brasileira de e-commerce para PMEs: políticas, faturamento, contabilidade, FP&A, tesouraria e materiais do board da Controladoria, com planilhas e documentos já extraídos para leitura. A pasta da empresa é somente leitura; quando você pedir, o assistente salva documentos (DOCX), planilhas e textos na sua pasta Meus arquivos, que você vê em plataforma.lagunaai.co/plataforma/empresa/astral-ecom/drive. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT ao drive da Astral Ecom, plataforma brasileira de e-commerce para PMEs: políticas, faturamento, contabilidade, FP&A, tesouraria e materiais do board da Controladoria, com planilhas e documentos já extraídos para leitura. A pasta da empresa é somente leitura; quando você pedir, o assistente salva documentos (DOCX), planilhas e textos na sua pasta Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/astral-ecom/drive. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
           "Read",
           "Write"
         ],
-        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/astral-ecom/drive",
-        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
-        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/astral-ecom/drive",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": [
           "Quais arquivos de fechamento temos no Drive da Astral Ecom? Resuma o mais recente.",
           "Escreva um memorando de uma página sobre a conciliação do excedente de setembro e salve no Drive como documento."

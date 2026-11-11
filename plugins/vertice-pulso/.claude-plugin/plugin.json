@@ -1,12 +1,12 @@
 {
   "name": "vertice-pulso",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Vértice Pulso: dados de uso do produto da Vértice (contas, usuários, convites, eventos, integrações, logs e limites contratados), em SQL somente leitura.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa",
+  "homepage": "https://lagunaai.org/plataforma/empresa",
   "keywords": [
     "produto",
     "uso",
@@ -18,7 +18,7 @@
   "mcpServers": {
     "vertice-produto": {
       "type": "http",
-      "url": "https://plataforma.lagunaai.co/api/mcp/produto"
+      "url": "https://lagunaai.org/api/mcp/produto"
     }
   }
 }

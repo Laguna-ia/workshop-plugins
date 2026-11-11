@@ -85,7 +85,7 @@ O texto de `read_file` serve para consulta e análise. Ter recebido tabelas por 
 O servidor MCP `vertice-drive` expõe duas pastas:
 
 - **Vértice/**: arquivos oficiais da empresa (reuniões, relatórios, clientes, deals), vistos por todos. É **somente leitura** para participantes: só instrutores (administradores) gravam aqui, e só quando o usuário pedir explicitamente essa pasta. Nada que já existe é alterado ou substituído.
-- **Meus arquivos/**: pasta do usuário, onde os resultados salvos aparecem em plataforma.lagunaai.co/plataforma/empresa/drive.
+- **Meus arquivos/**: pasta do usuário, onde os resultados salvos aparecem em lagunaai.org/plataforma/empresa/drive.
 
 Se uma ferramenta responder "Autorização necessária: conecte sua conta Laguna", oriente a conectar no plugin, seção MCPs, **Connect**, entrar com a conta Laguna e clicar em **Permitir**. Depois, repita a chamada.
 

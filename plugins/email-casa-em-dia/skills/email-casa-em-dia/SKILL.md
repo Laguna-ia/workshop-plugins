@@ -5,7 +5,7 @@ description: Como ler, resumir, responder e enviar e-mails na caixa da Head de M
 
 # Email Casa em Dia
 
-O servidor MCP `email-casa-em-dia` expõe a caixa de e-mail de **Marina Costa** (marina@casaemdia.com.br), Head de Marketing da Casa em Dia (manutenção residencial com planos de assinatura). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em plataforma.lagunaai.co/plataforma/empresa/casa-em-dia/email.
+O servidor MCP `email-casa-em-dia` expõe a caixa de e-mail de **Marina Costa** (marina@casaemdia.com.br), Head de Marketing da Casa em Dia (manutenção residencial com planos de assinatura). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em lagunaai.org/plataforma/empresa/casa-em-dia/email.
 
 ## Usar as ferramentas do plugin
 
