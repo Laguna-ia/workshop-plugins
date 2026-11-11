@@ -1,12 +1,12 @@
 {
   "name": "vertice-mail",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Email Vértice: caixa de e-mail da Vértice com leitura, contatos, respostas e envio de mensagens.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa/email",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/email",
   "keywords": [
     "email",
     "e-mail",
@@ -16,7 +16,7 @@
   "mcpServers": {
     "vertice-mail": {
       "type": "http",
-      "url": "https://lagunaai.org/api/mcp/mail"
+      "url": "https://plataforma.lagunaai.co/api/mcp/mail"
     }
   }
 }

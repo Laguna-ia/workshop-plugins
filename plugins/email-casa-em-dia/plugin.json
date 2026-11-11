@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "email-casa-em-dia",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Email Casa em Dia: a caixa de e-mail da Head de Marketing da Casa em Dia, com leitura, contatos, respostas e envio de mensagens.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa/casa-em-dia/email",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/casa-em-dia/email",
   "keywords": [
     "email",
     "e-mail",
@@ -26,9 +26,9 @@
           "Read",
           "Write"
         ],
-        "websiteURL": "https://lagunaai.org/plataforma/empresa/casa-em-dia/email",
-        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
-        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/casa-em-dia/email",
+        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
+        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
         "defaultPrompt": [
           "Quais e-mails não lidos eu tenho? Resuma o que cada um pede de mim.",
           "Leia o e-mail mais recente do time de marketing e rascunhe uma resposta pedindo os números da campanha."

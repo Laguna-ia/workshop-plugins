@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vertice-drive",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Drive Vértice: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa/drive",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/drive",
   "keywords": [
     "drive",
     "arquivos",
@@ -19,16 +19,16 @@
       "interface": {
         "displayName": "Drive Vértice",
         "shortDescription": "Arquivos da empresa Vértice",
-        "longDescription": "Conecta o ChatGPT ao drive da Vértice: relatórios, reuniões, pesquisas e documentos de deals da empresa, com planilhas e documentos já extraídos para leitura. Quando você pedir, salva documentos (DOCX no modelo visual da Vértice), planilhas e textos na sua pasta Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/drive. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT ao drive da Vértice: relatórios, reuniões, pesquisas e documentos de deals da empresa, com planilhas e documentos já extraídos para leitura. Quando você pedir, salva documentos (DOCX no modelo visual da Vértice), planilhas e textos na sua pasta Meus arquivos, que você vê em plataforma.lagunaai.co/plataforma/empresa/drive. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
           "Read",
           "Write"
         ],
-        "websiteURL": "https://lagunaai.org/plataforma/empresa/drive",
-        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
-        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/drive",
+        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
+        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
         "defaultPrompt": [
           "Quais arquivos de relatórios temos no Drive da Vértice? Resuma o relatório de dados comerciais do Q3.",
           "Escreva um resumo de uma página da pesquisa de clientes do Q3 e salve no Drive como documento."

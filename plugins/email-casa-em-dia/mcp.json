@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "email-casa-em-dia": { "type": "streamable-http", "url": "https://lagunaai.org/api/mcp/casa-em-dia/mail" }
+    "email-casa-em-dia": { "type": "streamable-http", "url": "https://plataforma.lagunaai.co/api/mcp/casa-em-dia/mail" }
   }
 }

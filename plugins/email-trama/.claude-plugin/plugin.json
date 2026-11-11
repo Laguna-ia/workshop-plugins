@@ -1,12 +1,12 @@
 {
   "name": "email-trama",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Email Trama: caixa de e-mail da Trama com leitura, contatos, respostas e envio de mensagens.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa/trama/email",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/trama/email",
   "keywords": [
     "email",
     "e-mail",
@@ -16,7 +16,7 @@
   "mcpServers": {
     "email-trama": {
       "type": "http",
-      "url": "https://lagunaai.org/api/mcp/trama/mail"
+      "url": "https://plataforma.lagunaai.co/api/mcp/trama/mail"
     }
   }
 }

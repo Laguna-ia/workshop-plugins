@@ -5,7 +5,7 @@ description: Como ler, resumir, responder e enviar e-mails na caixa do(a) associ
 
 # Email Brito Castelar
 
-O servidor MCP `email-brito-castelar` expõe a caixa de e-mail do(a) **Associado(a) — Contencioso** (associado@britocastelar.adv.br) do escritório Brito Castelar Advogados (contencioso cível e empresarial; sócios Ricardo Brito Sampaio e Henrique Castelar Nogueira). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em lagunaai.org/plataforma/empresa/brito-castelar/email.
+O servidor MCP `email-brito-castelar` expõe a caixa de e-mail do(a) **Associado(a) — Contencioso** (associado@britocastelar.adv.br) do escritório Brito Castelar Advogados (contencioso cível e empresarial; sócios Ricardo Brito Sampaio e Henrique Castelar Nogueira). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em plataforma.lagunaai.co/plataforma/empresa/brito-castelar/email.
 
 ## Usar as ferramentas do plugin
 

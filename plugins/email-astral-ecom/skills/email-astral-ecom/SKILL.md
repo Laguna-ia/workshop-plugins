@@ -5,7 +5,7 @@ description: Como ler, resumir, responder e enviar e-mails na caixa da Controlle
 
 # Email Astral Ecom
 
-O servidor MCP `email-astral-ecom` expõe a caixa de e-mail de **Bianca Okuma** (bianca@astralecom.com.br), Controller da Astral Ecom (plataforma brasileira de e-commerce para PMEs). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em lagunaai.org/plataforma/empresa/astral-ecom/email.
+O servidor MCP `email-astral-ecom` expõe a caixa de e-mail de **Bianca Okuma** (bianca@astralecom.com.br), Controller da Astral Ecom (plataforma brasileira de e-commerce para PMEs). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em plataforma.lagunaai.co/plataforma/empresa/astral-ecom/email.
 
 ## Usar as ferramentas do plugin
 

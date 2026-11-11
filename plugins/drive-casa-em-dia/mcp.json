@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "drive-casa-em-dia": { "type": "streamable-http", "url": "https://lagunaai.org/api/mcp/casa-em-dia/drive" }
+    "drive-casa-em-dia": { "type": "streamable-http", "url": "https://plataforma.lagunaai.co/api/mcp/casa-em-dia/drive" }
   }
 }

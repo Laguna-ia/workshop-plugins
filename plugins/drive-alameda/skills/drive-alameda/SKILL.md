@@ -86,7 +86,7 @@ O servidor MCP `drive-alameda` expõe duas pastas (e, dentro da empresa, a Dados
 
 - **Alameda/**: arquivos oficiais da empresa (Metas, Relatorios, Modelos e Marca). Vistos por todos; se não achar um arquivo, diga e não invente. É **somente leitura** para participantes, exceto a subpasta **Alameda/Dados/**: só instrutores (administradores) gravam no resto, e só quando o usuário pedir explicitamente essa pasta. Nada que já existe é alterado ou substituído.
 - **Alameda/Dados/**: pasta de dados do participante, **gravável** (cada pessoa tem a sua; é a mesma de Meus arquivos/Dados). Quando o usuário pedir, crie arquivos aqui e ATUALIZE os existentes, como `Dados/contexto-lojas.md`: para acrescentar a um arquivo existente, leia com `read_file`, monte a versão completa e grave com `save_text_file` no mesmo `folder` e `filename` com `overwrite: true`. A regra de escrita continua valendo: só com pedido explícito para salvar ou atualizar aquele arquivo.
-- **Meus arquivos/**: pasta do usuário, onde os resultados salvos aparecem em lagunaai.org/plataforma/empresa/alameda/drive.
+- **Meus arquivos/**: pasta do usuário, onde os resultados salvos aparecem em plataforma.lagunaai.co/plataforma/empresa/alameda/drive.
 
 Se uma ferramenta responder "Autorização necessária: conecte sua conta Laguna", oriente a conectar no plugin, seção MCPs, **Connect**, entrar com a conta Laguna e clicar em **Permitir**. Depois, repita a chamada.
 

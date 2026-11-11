@@ -1,12 +1,12 @@
 {
   "name": "drive-alameda",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Drive Alameda: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa/alameda/drive",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/alameda/drive",
   "keywords": [
     "drive",
     "arquivos",
@@ -16,7 +16,7 @@
   "mcpServers": {
     "drive-alameda": {
       "type": "http",
-      "url": "https://lagunaai.org/api/mcp/alameda/drive"
+      "url": "https://plataforma.lagunaai.co/api/mcp/alameda/drive"
     }
   }
 }

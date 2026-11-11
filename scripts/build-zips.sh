@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Gera dist/<plugin>.zip para cada pasta em plugins/, no mesmo layout dos zips
-# publicados em lagunaai.org: uma pasta <plugin>/ na raiz do zip, sem arquivos
+# publicados em plataforma.lagunaai.co: uma pasta <plugin>/ na raiz do zip, sem arquivos
 # ocultos (.claude-plugin/, .DS_Store etc.).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"

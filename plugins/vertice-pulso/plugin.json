@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vertice-pulso",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Vértice Pulso: dados de uso do produto da Vértice (contas, usuários, convites, eventos, integrações, logs e limites contratados), em SQL somente leitura.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://lagunaai.org"
+    "url": "https://plataforma.lagunaai.co"
   },
-  "homepage": "https://lagunaai.org/plataforma/empresa",
+  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa",
   "keywords": [
     "produto",
     "uso",
@@ -27,9 +27,9 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://lagunaai.org/plataforma/empresa",
-        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
-        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa",
+        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
+        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
         "defaultPrompt": [
           "Quais clientes assinaram mas ainda não ativaram o produto? Mostre o SQL e o critério de ativação usado.",
           "Alguma conta está usando mais do que o plano contratado? Liste as contas e mostre o SQL e os registros que sustentam."
