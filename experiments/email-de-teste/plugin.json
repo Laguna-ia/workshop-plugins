@@ -5,9 +5,9 @@
   "description": "Leitura, consulta de contatos e envio simulado de e-mails na caixa da Vértice.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/email",
+  "homepage": "https://lagunaai.org/plataforma/empresa/email",
   "keywords": [
     "email",
     "e-mail",
@@ -26,9 +26,9 @@
           "Read",
           "Write"
         ],
-        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/email",
-        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
-        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/email",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": "Verifique meus e-mails recentes e me ajude a responder; mostre o rascunho e aguarde minha confirmação antes de enviar.",
         "brandColor": "#0F6CBD",
         "composerIcon": "./assets/icon.png",

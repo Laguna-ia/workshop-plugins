@@ -1,12 +1,12 @@
 {
   "name": "drive-brito-castelar",
-  "version": "1.7.4",
+  "version": "1.7.5",
   "description": "Drive Brito Castelar: os autos e os modelos do escritório e a sua pasta, onde o assistente salva documentos quando você pedir.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/brito-castelar/drive",
+  "homepage": "https://lagunaai.org/plataforma/empresa/brito-castelar/drive",
   "keywords": [
     "drive",
     "arquivos",
@@ -17,7 +17,7 @@
   "mcpServers": {
     "drive-brito-castelar": {
       "type": "http",
-      "url": "https://plataforma.lagunaai.co/api/mcp/brito-castelar/drive"
+      "url": "https://lagunaai.org/api/mcp/brito-castelar/drive"
     }
   }
 }

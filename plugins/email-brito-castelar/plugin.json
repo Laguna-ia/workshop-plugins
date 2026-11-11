@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "email-brito-castelar",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Email Brito Castelar: a caixa do(a) associado(a) do contencioso, com leitura, contatos, respostas e envio de mensagens.",
   "author": {
     "name": "Laguna AI",
-    "url": "https://plataforma.lagunaai.co"
+    "url": "https://lagunaai.org"
   },
-  "homepage": "https://plataforma.lagunaai.co/plataforma/empresa/brito-castelar/email",
+  "homepage": "https://lagunaai.org/plataforma/empresa/brito-castelar/email",
   "keywords": [
     "email",
     "mcp",
@@ -19,16 +19,16 @@
       "interface": {
         "displayName": "Email Brito Castelar",
         "shortDescription": "Caixa de e-mail do escritório Brito Castelar",
-        "longDescription": "Conecta o ChatGPT à caixa de e-mail do(a) Associado(a) — Contencioso do Brito Castelar Advogados (associado@britocastelar.adv.br): os pedidos dos sócios, os comunicados do escritório e os avisos de assinatura dos contratos (Rubrica). Lê, resume, responde e envia mensagens para o time do escritório, com anexos do Drive Brito Castelar. Você vê a caixa em plataforma.lagunaai.co/plataforma/empresa/brito-castelar/email. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT à caixa de e-mail do(a) Associado(a) — Contencioso do Brito Castelar Advogados (associado@britocastelar.adv.br): os pedidos dos sócios, os comunicados do escritório e os avisos de assinatura dos contratos (Rubrica). Lê, resume, responde e envia mensagens para o time do escritório, com anexos do Drive Brito Castelar. Você vê a caixa em lagunaai.org/plataforma/empresa/brito-castelar/email. Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
           "Read",
           "Write"
         ],
-        "websiteURL": "https://plataforma.lagunaai.co/plataforma/empresa/brito-castelar/email",
-        "privacyPolicyURL": "https://plataforma.lagunaai.co/plataforma/privacidade",
-        "termsOfServiceURL": "https://plataforma.lagunaai.co/plataforma/termos",
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/brito-castelar/email",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
         "defaultPrompt": [
           "Leia o e-mail do Henrique sobre o caso Eduardo.",
           "O que eu tenho de pedidos dos sócios na caixa?"

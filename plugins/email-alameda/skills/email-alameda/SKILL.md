@@ -5,7 +5,7 @@ description: Como ler, resumir, responder e enviar e-mails na caixa da Head de D
 
 # Email Alameda
 
-O servidor MCP `email-alameda` expõe a caixa de e-mail de **Juliana Prado** (juliana.prado@alameda.com.br), Head de Dados da Alameda (rede de moda e casa com 36 lojas em três regionais e e-commerce). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em plataforma.lagunaai.co/plataforma/empresa/alameda/email.
+O servidor MCP `email-alameda` expõe a caixa de e-mail de **Juliana Prado** (juliana.prado@alameda.com.br), Head de Dados da Alameda (rede de moda e casa com 36 lojas em três regionais e e-commerce). O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em lagunaai.org/plataforma/empresa/alameda/email.
 
 ## Usar as ferramentas do plugin
 

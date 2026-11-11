@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "drive-brito-castelar": { "type": "streamable-http", "url": "https://plataforma.lagunaai.co/api/mcp/brito-castelar/drive" }
+    "drive-brito-castelar": { "type": "streamable-http", "url": "https://lagunaai.org/api/mcp/brito-castelar/drive" }
   }
 }

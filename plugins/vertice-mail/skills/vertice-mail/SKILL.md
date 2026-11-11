@@ -5,7 +5,7 @@ description: Como ler, resumir, responder e enviar e-mails na caixa do Diretor C
 
 # Email Vértice
 
-O servidor MCP `vertice-mail` expõe a caixa de e-mail de **Rodrigo Sampaio**, Diretor Comercial da Vértice. O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em plataforma.lagunaai.co/plataforma/empresa/email.
+O servidor MCP `vertice-mail` expõe a caixa de e-mail de **Rodrigo Sampaio**, Diretor Comercial da Vértice. O usuário opera essa caixa. Há duas pastas: **recebidos** e **enviados**, disponíveis em lagunaai.org/plataforma/empresa/email.
 
 ## Usar as ferramentas do plugin
 
