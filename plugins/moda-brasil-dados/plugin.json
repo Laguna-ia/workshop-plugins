@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "moda-brasil-dados",
+  "version": "1.0.0",
+  "description": "Moda Brasil Dados: o Data Warehouse da Moda Brasil, com o registro de governança dos pedidos.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/plugins",
+  "keywords": [
+    "dados",
+    "data warehouse",
+    "sql",
+    "mcp",
+    "moda-brasil"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Moda Brasil Dados",
+        "shortDescription": "Data Warehouse da Moda Brasil",
+        "longDescription": "Conecta o ChatGPT ao Data Warehouse da Moda Brasil, varejo de moda e casa: as tabelas do negócio com os comentários de coluna que explicam as regras, consultas em SQL e o registro de governança dos pedidos de dados. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/plugins",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Quais tabelas temos no Data Warehouse da Moda Brasil e o que cada uma guarda?"
+        ],
+        "brandColor": "#5B1A47",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

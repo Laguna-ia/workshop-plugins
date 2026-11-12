@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "email-moda-brasil",
+  "version": "1.0.0",
+  "description": "Email Moda Brasil: caixa de e-mail da Moda Brasil com leitura, contatos, respostas e envio de mensagens.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/moda-brasil/email",
+  "keywords": [
+    "email",
+    "e-mail",
+    "mcp",
+    "moda-brasil"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Email Moda Brasil",
+        "shortDescription": "Caixa de e-mail da Moda Brasil",
+        "longDescription": "Conecta o ChatGPT à caixa de e-mail da Moda Brasil, varejo de moda e casa: lista e lê mensagens, consulta contatos, envia e responde e-mails internos e marca mensagens como lidas. Envios pedem sua aprovação. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/moda-brasil/email",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Quais e-mails não lidos eu tenho? Resuma o que cada um pede de mim."
+        ],
+        "brandColor": "#5B1A47",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

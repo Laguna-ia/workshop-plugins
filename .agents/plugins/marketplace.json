@@ -207,6 +207,42 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "moda-brasil-dados",
+      "source": {
+        "source": "local",
+        "path": "./plugins/moda-brasil-dados"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "drive-moda-brasil",
+      "source": {
+        "source": "local",
+        "path": "./plugins/drive-moda-brasil"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "email-moda-brasil",
+      "source": {
+        "source": "local",
+        "path": "./plugins/email-moda-brasil"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "drive-moda-brasil",
+  "version": "1.0.0",
+  "description": "Drive Moda Brasil: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/moda-brasil/drive",
+  "keywords": [
+    "drive",
+    "arquivos",
+    "mcp",
+    "moda-brasil"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Drive Moda Brasil",
+        "shortDescription": "Arquivos da empresa Moda Brasil",
+        "longDescription": "Conecta o ChatGPT ao drive da Moda Brasil, varejo de moda e casa, com planilhas e documentos já extraídos para leitura. Quando você pedir, o assistente salva documentos (DOCX), planilhas e textos na sua pasta Meus arquivos, que você vê em lagunaai.org/plataforma/empresa/moda-brasil/drive. Login pela conta Laguna.",
+        "developerName": "Laguna AI",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lagunaai.org/plataforma/empresa/moda-brasil/drive",
+        "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
+        "termsOfServiceURL": "https://lagunaai.org/plataforma/termos",
+        "defaultPrompt": [
+          "Quais arquivos temos no Drive da Moda Brasil? Resuma os principais."
+        ],
+        "brandColor": "#5B1A47",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

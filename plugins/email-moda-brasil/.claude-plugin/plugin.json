@@ -1,0 +1,22 @@
+{
+  "name": "email-moda-brasil",
+  "version": "1.0.0",
+  "description": "Email Moda Brasil: caixa de e-mail da Moda Brasil com leitura, contatos, respostas e envio de mensagens.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/moda-brasil/email",
+  "keywords": [
+    "email",
+    "e-mail",
+    "mcp",
+    "moda-brasil"
+  ],
+  "mcpServers": {
+    "email-moda-brasil": {
+      "type": "http",
+      "url": "https://lagunaai.org/api/mcp/moda-brasil/mail"
+    }
+  }
+}
