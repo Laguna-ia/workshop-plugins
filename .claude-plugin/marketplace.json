@@ -1,6 +1,6 @@
 {
   "name": "laguna",
-  "description": "Plugins dos workshops da Laguna AI: Vértice (CRM, Pulso, Drive Vértice e Email Vértice), Casa em Dia (Drive Casa em Dia e Email Casa em Dia), Astral Ecom (Drive Astral Ecom e Email Astral Ecom) Alameda (Alameda Dados, Drive Alameda e Email Alameda) e Brito Castelar (Drive Brito Castelar, Email Brito Castelar e Julgados.ai)",
+  "description": "Plugins dos workshops da Laguna AI: Vértice (CRM, Pulso, Drive Vértice e Email Vértice), Casa em Dia (Drive Casa em Dia e Email Casa em Dia), Astral Ecom (Drive Astral Ecom e Email Astral Ecom) Alameda (Alameda Dados, Drive Alameda e Email Alameda), Brito Castelar (Drive Brito Castelar, Email Brito Castelar e Julgados.ai) e Moda Brasil (Moda Brasil Dados, Drive Moda Brasil e Email Moda Brasil)",
   "owner": {
     "name": "Laguna",
     "url": "https://lagunaai.org"
@@ -107,6 +107,24 @@
       "source": "./plugins/julgados-ai",
       "description": "Julgados.ai: o acervo do escritório (casos, linha do tempo, peças, teses, prazos, memória), o amparo jurídico (súmulas, temas, legislação com vigência) e as atualizações do tribunal, para pesquisar, acompanhar casos e redigir peças.",
       "version": "0.22.0"
+    },
+    {
+      "name": "moda-brasil-dados",
+      "source": "./plugins/moda-brasil-dados",
+      "description": "Moda Brasil Dados: o Data Warehouse da Moda Brasil, com o registro de governança dos pedidos.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "drive-moda-brasil",
+      "source": "./plugins/drive-moda-brasil",
+      "description": "Drive Moda Brasil: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "email-moda-brasil",
+      "source": "./plugins/email-moda-brasil",
+      "description": "Email Moda Brasil: caixa de e-mail da Moda Brasil com leitura, contatos, respostas e envio de mensagens.",
+      "version": "1.0.0"
     }
   ]
 }

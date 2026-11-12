@@ -8,6 +8,8 @@
 # do workshop; ver scripts/build-alameda-dados.sh): a versão que fica em plugins/ é a do marketplace (1.0.1 desde o Módulo 2: salvar_segmentacao). O trama-erp está
 # em 1.8.1 (instruções e ferramentas do workshop de Finanças v3) e o drive-brito-castelar em 1.7.3 (Petições históricas e planilha de controle em Gestão)
 # enquanto os demais seguem em 1.7.1; alinhe na próxima release geral.
+# Os três da Moda Brasil (moda-brasil-dados, drive-moda-brasil, email-moda-brasil) nasceram em 1.0.0, só com o MCP (sem skills),
+# e andam juntos entre si, fora da versão única.
 # O julgados-ai é de terceiro (Canon Knowledge, Julgados.ai; só no workshop Jurídico) e segue a versão do fornecedor: nunca alinhar.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -18,7 +20,8 @@ tag = sys.argv[1].lstrip("v") if len(sys.argv) > 1 and sys.argv[1] else None
 load = lambda p: json.load(open(p, encoding="utf-8"))
 claude_mkt = {p["name"]: p for p in load(".claude-plugin/marketplace.json")["plugins"]}
 agents_mkt = {p["name"]: p for p in load(".agents/plugins/marketplace.json")["plugins"]}
-INDEPENDENT = {"alameda-dados", "trama-erp", "drive-brito-castelar", "julgados-ai"}
+INDEPENDENT = {"alameda-dados", "trama-erp", "drive-brito-castelar", "julgados-ai",
+               "moda-brasil-dados", "drive-moda-brasil", "email-moda-brasil"}
 errors, versions = [], set()
 names = sorted(d for d in os.listdir("plugins") if os.path.isdir(os.path.join("plugins", d)))
 if set(names) != set(claude_mkt) or set(names) != set(agents_mkt):

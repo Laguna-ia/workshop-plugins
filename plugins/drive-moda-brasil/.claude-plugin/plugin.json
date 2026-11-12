@@ -1,0 +1,22 @@
+{
+  "name": "drive-moda-brasil",
+  "version": "1.0.0",
+  "description": "Drive Moda Brasil: arquivos da empresa e a sua pasta, onde o assistente salva documentos e planilhas quando você pedir.",
+  "author": {
+    "name": "Laguna AI",
+    "url": "https://lagunaai.org"
+  },
+  "homepage": "https://lagunaai.org/plataforma/empresa/moda-brasil/drive",
+  "keywords": [
+    "drive",
+    "arquivos",
+    "mcp",
+    "moda-brasil"
+  ],
+  "mcpServers": {
+    "drive-moda-brasil": {
+      "type": "http",
+      "url": "https://lagunaai.org/api/mcp/moda-brasil/drive"
+    }
+  }
+}
