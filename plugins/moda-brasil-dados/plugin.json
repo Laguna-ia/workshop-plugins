@@ -20,11 +20,12 @@
       "interface": {
         "displayName": "Moda Brasil Dados",
         "shortDescription": "Data Warehouse da Moda Brasil",
-        "longDescription": "Conecta o ChatGPT ao Data Warehouse da Moda Brasil, varejo de moda e casa: as tabelas do negócio com os comentários de coluna que explicam as regras, consultas em SQL e o registro de governança dos pedidos de dados. Login pela conta Laguna.",
+        "longDescription": "Conecta o ChatGPT ao Data Warehouse da Moda Brasil, varejo de moda e casa: as tabelas do negócio com os comentários de coluna que explicam as regras, consultas em SQL e o registro de governança dos pedidos de dados (cada consulta é registrada com o pedido original; feedback e propostas de métrica gravam no registro). Login pela conta Laguna.",
         "developerName": "Laguna AI",
         "category": "Productivity",
         "capabilities": [
-          "Read"
+          "Read",
+          "Write"
         ],
         "websiteURL": "https://lagunaai.org/plataforma/empresa/plugins",
         "privacyPolicyURL": "https://lagunaai.org/plataforma/privacidade",
