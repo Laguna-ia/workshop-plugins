@@ -45,7 +45,7 @@ Regra de nomes: os plugins de Drive e e-mail aparecem como **Drive &lt;Empresa&g
 
 | Plugin | Nome exibido | O que faz | Servidor MCP |
 | --- | --- | --- | --- |
-| `moda-brasil-dados` | Moda Brasil Dados | Data Warehouse da Moda Brasil (varejo de moda e casa), com o registro de governança dos pedidos. Só o conector, sem skills. Versão própria 1.0.0. | `https://lagunaai.org/api/mcp/moda-brasil/dw` |
+| `moda-brasil-dados` | Moda Brasil Dados | Data Warehouse da Moda Brasil (e-commerce e varejo de moda): navegar nas tabelas, queries salvas e consultas SQL somente leitura, sem a camada de governança. Só o conector, sem skills. Versão própria 1.1.0. | `https://lagunaai.org/api/mcp/moda-brasil/dados` |
 | `drive-moda-brasil` | Drive Moda Brasil | Drive da Moda Brasil; o assistente salva documentos, planilhas e textos em Meus arquivos, só quando você pedir. Só o conector, sem skills. Versão própria 1.0.0. | `https://lagunaai.org/api/mcp/moda-brasil/drive` |
 | `email-moda-brasil` | Email Moda Brasil | Caixa de e-mail da Moda Brasil, com leitura, contatos, respostas e envio de mensagens. Envios pedem sua aprovação. Só o conector, sem skills. Versão própria 1.0.0. | `https://lagunaai.org/api/mcp/moda-brasil/mail` |
 

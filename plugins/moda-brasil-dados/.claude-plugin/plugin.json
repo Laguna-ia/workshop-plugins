@@ -1,7 +1,7 @@
 {
   "name": "moda-brasil-dados",
-  "version": "1.0.0",
-  "description": "Moda Brasil Dados: o Data Warehouse da Moda Brasil, com o registro de governança dos pedidos.",
+  "version": "1.1.0",
+  "description": "Moda Brasil Dados: o Data Warehouse da Moda Brasil, para navegar nas tabelas e rodar consultas.",
   "author": {
     "name": "Laguna AI",
     "url": "https://lagunaai.org"
@@ -15,9 +15,9 @@
     "moda-brasil"
   ],
   "mcpServers": {
-    "moda-brasil-dw": {
+    "moda-brasil-dados": {
       "type": "http",
-      "url": "https://lagunaai.org/api/mcp/moda-brasil/dw"
+      "url": "https://lagunaai.org/api/mcp/moda-brasil/dados"
     }
   }
 }

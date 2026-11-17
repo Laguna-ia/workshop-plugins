@@ -9,7 +9,7 @@
 # em 1.8.1 (instruções e ferramentas do workshop de Finanças v3) e o drive-brito-castelar em 1.7.3 (Petições históricas e planilha de controle em Gestão)
 # enquanto os demais seguem em 1.7.1; alinhe na próxima release geral.
 # Os três da Moda Brasil (moda-brasil-dados, drive-moda-brasil, email-moda-brasil) nasceram em 1.0.0, só com o MCP (sem skills),
-# e andam juntos entre si, fora da versão única.
+# fora da versão única. O moda-brasil-dados está em 1.1.0 (17/11/2026: MCP /dados, sem a governança).
 # O julgados-ai é de terceiro (Canon Knowledge, Julgados.ai; só no workshop Jurídico) e segue a versão do fornecedor: nunca alinhar.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"

@@ -111,8 +111,8 @@
     {
       "name": "moda-brasil-dados",
       "source": "./plugins/moda-brasil-dados",
-      "description": "Moda Brasil Dados: o Data Warehouse da Moda Brasil, com o registro de governança dos pedidos.",
-      "version": "1.0.0"
+      "description": "Moda Brasil Dados: o Data Warehouse da Moda Brasil, para navegar nas tabelas e rodar consultas.",
+      "version": "1.1.0"
     },
     {
       "name": "drive-moda-brasil",
